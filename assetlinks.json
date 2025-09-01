@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.gmail.omsjsr.smartcamera",
+        "sha256_cert_fingerprints": ["6B:B1:18:E1:85:B9:29:B6:BD:BA:AA:65:30:2A:50:C6:08:E6:25:AF:A4:32:58:A6:75:73:E7:8B:B5:62:B0:37"]
+      }
+    }]

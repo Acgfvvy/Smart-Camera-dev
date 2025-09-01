@@ -1,0 +1,10 @@
+Keep this file and signing.keystore in a safe place. You'll need these files if you want to upload future versions of your PWA to the Google Play Store.
+
+Key store file: signing.keystore
+Key store password: DA72xZUetLUa
+Key alias: my-key-alias
+Key password: DA72xZUetLUa
+Signer's full name: Smart Camera Admin
+Signer's organization: Smart Camera
+Signer's organizational unit: Engineering
+Signer's country code: US
