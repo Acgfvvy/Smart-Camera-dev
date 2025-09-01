@@ -51,14 +51,15 @@ def twaManifest = [
 ]
 
 android {
-    compileSdkVersion 36
-    namespace "com.gmail.omsjsr.smartcamera"
+    compileSdkVersion = 36
+    namespace = "com.gmail.omsjsr.smartcamera"
     defaultConfig {
-        applicationId "com.gmail.omsjsr.smartcamera"
+        applicationId = "com.gmail.omsjsr.smartcamera"
         minSdkVersion 23
+        //noinspection OldTargetApi
         targetSdkVersion 35
-        versionCode 20
-        versionName "20.0.0.0"
+        versionCode = 20
+        versionName = "20.0.0.0"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
@@ -152,7 +153,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled = true
         }
     }
     compileOptions {
@@ -160,7 +161,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     lint {
-        checkReleaseBuilds false
+        checkReleaseBuilds = false
     }
 
     testOptions {

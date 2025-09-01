@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>1</line>
+  <module>source.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintUnusedResources" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+  <hints />
+  <description>&lt;html&gt;The resource &lt;code&gt;R.bool.enableSiteSettingsShortcut&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  <highlighted_element>/* * Copyright 2019 Google Inc. * * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;...</highlighted_element>
+  <language>Groovy</language>
+  <offset>0</offset>
+  <length>10033</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>1</line>
+  <module>source.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintUnusedResources" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+  <hints />
+  <description>&lt;html&gt;The resource &lt;code&gt;R.string.fullScopeUrl&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  <highlighted_element>/* * Copyright 2019 Google Inc. * * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;...</highlighted_element>
+  <language>Groovy</language>
+  <offset>0</offset>
+  <length>10033</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/drawable-anydpi/shortcut_legacy_background.xml</file>
+  <line>16</line>
+  <module>source.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable-anydpi/shortcut_legacy_background.xml" />
+  <problem_class id="AndroidLintUnusedResources" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+  <hints />
+  <description>&lt;html&gt;The resource &lt;code&gt;R.drawable.shortcut_legacy_background&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  <highlighted_element>&lt;inset xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; xmlns:aapt=&quot;http://schemas.and...</highlighted_element>
+  <language>XML</language>
+  <offset>0</offset>
+  <length>388</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/raw/web_app_manifest.json</file>
+  <line>1</line>
+  <module>source.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/raw/web_app_manifest.json" />
+  <problem_class id="AndroidLintUnusedResources" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+  <hints />
+  <description>&lt;html&gt;The resource &lt;code&gt;R.raw.web_app_manifest&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  <highlighted_element>{&quot;name&quot;:&quot;Smart Camera&quot;,&quot;short_name&quot;:&quot;Smart Camera&quot;,&quot;description&quot;:&quot;Smart Camera helps you identify ob...</highlighted_element>
+  <language>JSON</language>
+  <offset>0</offset>
+  <length>585</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/colors.xml</file>
+  <line>17</line>
+  <module>source.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+  <problem_class id="AndroidLintUnusedResources" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused resources</problem_class>
+  <hints />
+  <description>&lt;html&gt;The resource &lt;code&gt;R.color.shortcut_background&lt;/code&gt; appears to be unused&lt;/html&gt;</description>
+  <highlighted_element>name=&quot;shortcut_background&quot;</highlighted_element>
+  <language>XML</language>
+  <offset>11</offset>
+  <length>26</length>
+</problem>
+</problems>
