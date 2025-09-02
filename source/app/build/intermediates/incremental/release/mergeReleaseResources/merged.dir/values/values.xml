@@ -8,7 +8,6 @@
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="enableNotification">false</bool>
-    <bool name="enableSiteSettingsShortcut">false</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -81,7 +80,6 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="shortcut_background">#F5F5F5</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -338,7 +336,6 @@
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="fullScopeUrl" translatable="false">https://smart-camera-3-15-2013.web.app/</string>
     <string name="generatorApp" translatable="false">PWABuilder</string>
     <string name="hostName" translatable="false">smart-camera-3-15-2013.web.app</string>
     <string name="launchUrl" translatable="false">https://smart-camera-3-15-2013.web.app/index.html</string>

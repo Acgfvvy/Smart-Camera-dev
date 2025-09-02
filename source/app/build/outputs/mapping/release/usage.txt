@@ -7678,7 +7678,6 @@ com.gmail.omsjsr.smartcamera.R$color
 com.gmail.omsjsr.smartcamera.R$drawable
 com.gmail.omsjsr.smartcamera.R$integer
 com.gmail.omsjsr.smartcamera.R$mipmap
-com.gmail.omsjsr.smartcamera.R$raw
 com.gmail.omsjsr.smartcamera.R$string
 com.gmail.omsjsr.smartcamera.R$xml
 com.gmail.omsjsr.smartcamera.R
