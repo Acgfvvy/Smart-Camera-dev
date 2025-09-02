@@ -4512,7 +4512,11 @@ Reports exceptions that are declared in a method's signature but never thrown by
 &lt;body&gt;
 Checks that preview &lt;code&gt;apiLevel&lt;/code&gt; corresponds to a supported API level.
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
-&lt;/html&gt;</inspection><inspection shortName="ComposePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR" displayName="Preview is not supported in unit test files" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="PreviewPickerAnnotation" defaultSeverity="ERROR" displayName="Preview device parameter must have valid syntax" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+&lt;/html&gt;</inspection>
+    <inspection shortName="ComposePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR"
+        displayName="Preview is not supported in unit test files" enabled="true" language="kotlin"
+        pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" /><inspection shortName="PreviewPickerAnnotation" defaultSeverity="ERROR" displayName="Preview device parameter must have valid syntax" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Checks that preview device parameter has valid syntax.
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
@@ -4526,7 +4530,25 @@ Checks that Preview is not used with Composable functions with parameters. Compo
 &lt;body&gt;
 Checks that preview &lt;code&gt;fontScale&lt;/code&gt; value is greater than zero.
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
-&lt;/html&gt;</inspection><inspection shortName="PreviewParameterProviderOnFirstParameter" defaultSeverity="ERROR" displayName="@PreviewParameter is only allowed in the first parameter of a Composable function" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="PreviewShouldNotBeCalledRecursively" defaultSeverity="WEAK WARNING" displayName="Recursive call to preview function" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="ComposePreviewDimensionRespectsLimit" defaultSeverity="WARNING" displayName="Preview dimension has a minimum and a maximum limit" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="PreviewDeviceShouldUseNewSpec" defaultSeverity="WEAK WARNING" displayName="Legacy device spec being used" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="ComposePreviewNeedsComposableAnnotation" defaultSeverity="ERROR" displayName="Preview used on a non-Composable function" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="ComposePreviewMustBeTopLevelFunction" defaultSeverity="ERROR" displayName="Preview must be a top level declaration or in a top level class with a default constructor." enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection></group><group name="Finalization" path="Java"><inspection shortName="NoExplicitFinalizeCalls" defaultSeverity="WARNING" displayName="'finalize()' called explicitly" enabled="true" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+&lt;/html&gt;</inspection>
+    <inspection shortName="PreviewParameterProviderOnFirstParameter" defaultSeverity="ERROR"
+        displayName="@PreviewParameter is only allowed in the first parameter of a Composable function"
+        enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="PreviewShouldNotBeCalledRecursively" defaultSeverity="WEAK WARNING"
+        displayName="Recursive call to preview function" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" />
+    <inspection shortName="ComposePreviewDimensionRespectsLimit" defaultSeverity="WARNING"
+        displayName="Preview dimension has a minimum and a maximum limit" enabled="true" language="kotlin" pluginId="com.android.tools.design"
+        pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="PreviewDeviceShouldUseNewSpec" defaultSeverity="WEAK WARNING" displayName="Legacy device spec being used" enabled="true" language="kotlin"
+        pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" />
+    <inspection shortName="ComposePreviewNeedsComposableAnnotation" defaultSeverity="ERROR"
+        displayName="Preview used on a non-Composable function" enabled="true" language="kotlin"
+        pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" />
+    <inspection shortName="ComposePreviewMustBeTopLevelFunction" defaultSeverity="ERROR" displayName="Preview must be a top level declaration or in a top level class with a default constructor."
+        enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" /></group><group name="Finalization" path="Java"><inspection shortName="NoExplicitFinalizeCalls" defaultSeverity="WARNING" displayName="'finalize()' called explicitly" enabled="true" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Reports calls to &lt;code&gt;Object.finalize()&lt;/code&gt;.
 &lt;p&gt;Calling &lt;code&gt;Object.finalize()&lt;/code&gt; explicitly may result in objects being placed in an
@@ -5103,7 +5125,9 @@ Reports assignment to method parameters.
 &lt;/code&gt;&lt;/pre&gt;
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
 &lt;/html&gt;
-</inspection></group><group name="Kotlin Android" path=""><inspection shortName="K2TypeParameterFindViewById" defaultSeverity="WEAK WARNING" displayName="Cast can be converted to findViewById with type parameter" enabled="true" language="kotlin" pluginId="org.jetbrains.android" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="IllegalIdentifier" defaultSeverity="ERROR" displayName="Illegal Android Identifier" enabled="true" language="kotlin" pluginId="org.jetbrains.android" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+</inspection></group><group name="Kotlin Android" path="">
+    <inspection shortName="K2TypeParameterFindViewById" defaultSeverity="WEAK WARNING" displayName="Cast can be converted to findViewById with type parameter" enabled="true"
+        language="kotlin" pluginId="org.jetbrains.android" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" /><inspection shortName="IllegalIdentifier" defaultSeverity="ERROR" displayName="Illegal Android Identifier" enabled="true" language="kotlin" pluginId="org.jetbrains.android" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Reports Android projects identifiers that are not accepted by the Android runtime.
 For example, method names with whitespaces.
@@ -5972,7 +5996,18 @@ Reports &lt;code&gt;import&lt;/code&gt; statements which are not arranged accord
   }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
-&lt;/html&gt;</inspection></group><group name="Glance Preview" path=""><inspection shortName="GlancePreviewNeedsComposableAnnotation" defaultSeverity="ERROR" displayName="Glance Preview used on a non-Composable function" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="GlancePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR" displayName="Glance Preview is not supported in unit test files" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="GlancePreviewDimensionRespectsLimit" defaultSeverity="WARNING" displayName="Preview dimension has a minimum and a maximum limit" enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="GlancePreviewMustBeTopLevelFunction" defaultSeverity="ERROR" displayName="Glance Preview must be a top level declaration or in a top level class with a default constructor." enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection></group><group name="Markdown" path=""><inspection shortName="MarkdownIncorrectTableFormatting" defaultSeverity="WEAK WARNING" displayName="Incorrect table formatting" enabled="true" language="Markdown" pluginId="org.intellij.plugins.markdown" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+&lt;/html&gt;</inspection></group><group name="Glance Preview" path="">
+    <inspection shortName="GlancePreviewNeedsComposableAnnotation" defaultSeverity="ERROR"
+        displayName="Glance Preview used on a non-Composable function" enabled="true" language="kotlin" pluginId="com.android.tools.design"
+        pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="GlancePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR"
+        displayName="Glance Preview is not supported in unit test files" enabled="true" language="kotlin" pluginId="com.android.tools.design"
+        pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="GlancePreviewDimensionRespectsLimit" defaultSeverity="WARNING"
+        displayName="Preview dimension has a minimum and a maximum limit" enabled="true" language="kotlin" pluginId="com.android.tools.design"
+        pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="GlancePreviewMustBeTopLevelFunction" defaultSeverity="ERROR" displayName="Glance Preview must be a top level declaration or in a top level class with a default constructor."
+        enabled="true" language="kotlin" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" /></group><group name="Markdown" path=""><inspection shortName="MarkdownIncorrectTableFormatting" defaultSeverity="WEAK WARNING" displayName="Incorrect table formatting" enabled="true" language="Markdown" pluginId="org.intellij.plugins.markdown" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Checks if table is correctly formatted.
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
@@ -9525,7 +9560,10 @@ Reports package names that do not follow the naming conventions.
 &lt;p&gt;&lt;b&gt;Example:&lt;/b&gt;&lt;/p&gt;
 &lt;code&gt;org.example.myProject&lt;/code&gt;
 &lt;!-- tooltip end --&gt;&lt;/body&gt;
-&lt;/html&gt;</inspection></group><group name="Gradle Declarative" path=""><inspection shortName="DeclarativeUnresolvedReference" defaultSeverity="WARNING" displayName="Unresolved reference" enabled="true" language="Declarative" pluginId="com.android.tools.gradle.dcl" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection></group><group name="Class metrics" path="Java"><inspection shortName="AnonymousClassComplexity" defaultSeverity="WARNING" displayName="Overly complex anonymous class" enabled="false" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+&lt;/html&gt;</inspection></group><group name="Gradle Declarative" path="">
+    <inspection shortName="DeclarativeUnresolvedReference" defaultSeverity="WARNING" displayName="Unresolved reference" enabled="true" language="Declarative"
+        pluginId="com.android.tools.gradle.dcl" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" /></group><group name="Class metrics" path="Java"><inspection shortName="AnonymousClassComplexity" defaultSeverity="WARNING" displayName="Overly complex anonymous class" enabled="false" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Reports anonymous inner classes whose total complexity exceeds the specified maximum.
 &lt;p&gt;The total complexity of a class is the sum of cyclomatic complexities of all the methods
@@ -16919,7 +16957,29 @@ When the class extends an existing cloneable class or implements a cloneable int
 &lt;p&gt;
 
 &lt;/body&gt;
-&lt;/html&gt;</inspection></group><group name="Wear Tile preview" path=""><inspection shortName="WearTilePreviewDeviceSpec" defaultSeverity="ERROR" displayName="The Preview's device parameter must be valid" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewMethodIsAnnotatedWithTilePreviewAnnotation" defaultSeverity="ERROR" displayName="In order to preview a Tile, the Preview annotation must be from androidx.wear.tiles.tooling.preview" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewShouldBeTopLevelFunction" defaultSeverity="ERROR" displayName="The Preview must be a top level declaration or in a top level class with a default constructor" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR" displayName="Preview is not supported in unit test files" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewHasValidMethodSignature" defaultSeverity="ERROR" displayName="The Preview method should return an androidx.wear.tiles.tooling.preview.TilePreviewData and have a single optional android.content.Context parameter" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewContextComesFromParameter" defaultSeverity="ERROR" displayName="The Context must come from the Preview method parameters" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection><inspection shortName="WearTilePreviewComposableAnnotationIsNotSupported" defaultSeverity="ERROR" displayName="The @Composable annotation is not supported on Tile previews" enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false"></inspection></group><group name="Java 5" path="Java/Java language level migration aids"><inspection shortName="IndexOfReplaceableByContains" defaultSeverity="WARNING" displayName="'String.indexOf()' expression can be replaced with 'contains()'" enabled="true" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
+&lt;/html&gt;</inspection></group><group name="Wear Tile preview" path="">
+    <inspection shortName="WearTilePreviewDeviceSpec" defaultSeverity="ERROR" displayName="The Preview's device parameter must be valid" enabled="true" language="UAST"
+        pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewMethodIsAnnotatedWithTilePreviewAnnotation"
+        defaultSeverity="ERROR" displayName="In order to preview a Tile, the Preview annotation must be from androidx.wear.tiles.tooling.preview"
+        enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewShouldBeTopLevelFunction" defaultSeverity="ERROR"
+        displayName="The Preview must be a top level declaration or in a top level class with a default constructor"
+        enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewNotSupportedInUnitTestFiles" defaultSeverity="ERROR"
+        displayName="Preview is not supported in unit test files" enabled="true" language="UAST"
+        pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807"
+        isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewHasValidMethodSignature" defaultSeverity="ERROR"
+        displayName="The Preview method should return an androidx.wear.tiles.tooling.preview.TilePreviewData and have a single optional android.content.Context parameter"
+        enabled="true" language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewContextComesFromParameter" defaultSeverity="ERROR"
+        displayName="The Context must come from the Preview method parameters" enabled="true"
+        language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" />
+    <inspection shortName="WearTilePreviewComposableAnnotationIsNotSupported" defaultSeverity="ERROR"
+        displayName="The @Composable annotation is not supported on Tile previews" enabled="true"
+        language="UAST" pluginId="com.android.tools.design" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false" /></group><group name="Java 5" path="Java/Java language level migration aids"><inspection shortName="IndexOfReplaceableByContains" defaultSeverity="WARNING" displayName="'String.indexOf()' expression can be replaced with 'contains()'" enabled="true" language="JAVA" pluginId="com.intellij.java" pluginVersion="251.26094.121.2512.13991807" isGlobalTool="false">&lt;html&gt;
 &lt;body&gt;
 Reports comparisons with &lt;code&gt;String.indexOf()&lt;/code&gt; calls
 that can be replaced with a call to the &lt;code&gt;String.contains()&lt;/code&gt; method.
