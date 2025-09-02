@@ -82,10 +82,7 @@ android {
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://smart-camera-3-15-2013.web.app/'
-        
 
-        
 
         // The hostname is used when building the intent-filter, so the TWA is able to
         // handle Intents to open host url of the application.
@@ -146,7 +143,6 @@ android {
 
         resValue "string", "fallbackType", twaManifest.fallbackType
 
-        resValue "bool", "enableSiteSettingsShortcut", twaManifest.enableSiteSettingsShortcut
         resValue "string", "orientation", twaManifest.orientation
 
         
