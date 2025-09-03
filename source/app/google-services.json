@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "814154291060",
+    "project_id": "smart-camera-3-15-2013",
+    "storage_bucket": "smart-camera-3-15-2013.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814154291060:android:145db56af0db1c154ffe21",
+        "android_client_info": {
+          "package_name": "com.gmail.omsjsr.smartcamera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvfxE15vJtQQj-GDx9NzRXZW0a1AugP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

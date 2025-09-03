@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.gmail.omsjsr.smartcamera" />
+                  <option name="mobileSdkAppId" value="1:814154291060:android:145db56af0db1c154ffe21" />
+                  <option name="projectId" value="smart-camera-3-15-2013" />
+                  <option name="projectNumber" value="814154291060" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

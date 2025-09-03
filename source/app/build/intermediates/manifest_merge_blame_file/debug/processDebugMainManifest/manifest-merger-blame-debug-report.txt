@@ -38,9 +38,9 @@
 34-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:28:26-78
 35
 36    <queries>
-36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\55d78fcecc2d409312fbfd12f509d4ce\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:22:5-30:15
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\fb01e12eddf3aa1f276874218bbab7e4\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:22:5-30:15
 37        <intent>
-37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\55d78fcecc2d409312fbfd12f509d4ce\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:23:9-29:18
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\fb01e12eddf3aa1f276874218bbab7e4\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:23:9-29:18
 38            <action android:name="android.intent.action.VIEW" />
 38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:17-68
 38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:25-66
@@ -55,311 +55,489 @@
 43        </intent>
 44    </queries>
 45
-46    <permission
-46-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-47        android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-47-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-48        android:protectionLevel="signature" />
-48-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-49
-50    <uses-permission android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-50-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-50-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-51
-52    <application
-52-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:37:5-187:19
-53        android:name="com.gmail.omsjsr.smartcamera.Application"
-53-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:38:9-35
-54        android:allowBackup="true"
-54-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:39:9-35
-55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-55-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\68c61903f1a8f854b2b4b6162e4a2931\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-56        android:debuggable="true"
-57        android:extractNativeLibs="false"
-58        android:icon="@mipmap/ic_launcher"
-58-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:40:9-43
-59        android:label="@string/appName"
-59-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:41:9-40
-60        android:supportsRtl="true"
-60-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:43:9-35
-61        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-61-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:44:9-68
-62        <meta-data
-62-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:46:9-48:58
-63            android:name="asset_statements"
-63-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:47:13-44
-64            android:resource="@string/assetStatements" />
-64-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:48:13-55
-65        <meta-data
-65-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:51:13-53:58
-66            android:name="web_manifest_url"
-66-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:52:17-48
-67            android:value="@string/webManifestUrl" />
-67-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:53:17-55
-68        <meta-data
-68-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:56:9-58:52
-69            android:name="twa_generator"
-69-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:57:13-41
-70            android:value="@string/generatorApp" />
-70-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:58:13-49
-71
-72        <activity
-72-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:66:9-148:20
-73            android:name="com.gmail.omsjsr.smartcamera.LauncherActivity"
-73-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:66:19-50
-74            android:alwaysRetainTaskState="true"
-74-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:67:13-49
-75            android:exported="true"
-75-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:69:13-36
-76            android:label="@string/launcherName" >
-76-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:68:13-49
-77            <meta-data
-77-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:13-71:53
-78                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-78-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:24-85
-79                android:value="@string/launchUrl" />
-79-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:71:17-50
-80            <meta-data
-80-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:73:13-75:58
-81                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-81-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:74:17-83
-82                android:resource="@color/colorPrimary" />
-82-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:75:17-55
-83            <meta-data
-83-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:79:13-81:62
-84                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
-84-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:80:17-88
-85                android:resource="@color/colorPrimaryDark" />
-85-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:81:17-59
-86            <meta-data
-86-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:83:13-85:61
-87                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-87-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:84:17-87
-88                android:resource="@color/navigationColor" />
-88-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:85:17-58
-89            <meta-data
-89-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:87:13-89:65
-90                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
-90-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:88:17-92
-91                android:resource="@color/navigationColorDark" />
-91-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:89:17-62
-92            <meta-data
-92-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:91:13-93:68
-93                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
-93-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:92:17-84
-94                android:resource="@color/navigationDividerColor" />
-94-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:93:17-65
-95            <meta-data
-95-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:95:13-97:72
-96                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
-96-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:96:17-89
-97                android:resource="@color/navigationDividerColorDark" />
-97-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:97:17-69
-98            <meta-data
-98-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:13-100:54
-99                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-99-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:24-95
-100                android:resource="@drawable/splash" />
-100-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:100:17-52
-101            <meta-data
-101-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:13-103:60
-102                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-102-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:24-104
-103                android:resource="@color/backgroundColor" />
-103-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:103:17-58
-104            <meta-data
-104-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:13-106:71
-105                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
-105-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:24-105
-106                android:value="@integer/splashScreenFadeOutDuration" />
-106-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:106:17-69
-107            <meta-data
-107-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:13-109:60
-108                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
-108-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:24-97
-109                android:value="@string/providerAuthority" />
-109-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:109:17-58
-110            <meta-data
-110-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:13-97
-111                android:name="android.app.shortcuts"
-111-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:24-60
-112                android:resource="@xml/shortcuts" />
-112-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:61-94
-113            <meta-data
-113-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:113:13-114:56
-114                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
-114-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:113:24-91
-115                android:value="@string/fallbackType" />
-115-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:114:17-53
-116            <meta-data
-116-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:119:13-120:52
-117                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
-117-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:119:24-86
-118                android:value="sticky-immersive" />
-118-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:120:17-49
-119            <meta-data
-119-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:13-124:54
-120                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
-120-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:24-92
-121                android:value="@string/orientation" />
-121-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:124:17-52
-122
-123            <intent-filter>
-123-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:130:13-133:29
-124                <action android:name="android.intent.action.MAIN" />
-124-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:131:17-69
-124-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:131:25-66
-125
-126                <category android:name="android.intent.category.LAUNCHER" />
-126-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:132:17-77
-126-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:132:27-74
-127            </intent-filter>
-128            <intent-filter android:autoVerify="true" >
-128-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:13-143:29
-128-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:28-53
-129                <action android:name="android.intent.action.VIEW" />
-129-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:17-68
-129-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:25-66
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:5-79
+46-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:23:22-76
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+47-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
+48    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+48-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+48-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+49    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+49-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+49-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+50    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+50-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+50-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+52
+53    <permission
+53-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+54        android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+58
+59    <application
+59-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:37:5-187:19
+60        android:name="com.gmail.omsjsr.smartcamera.Application"
+60-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:38:9-35
+61        android:allowBackup="true"
+61-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:39:9-35
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+63        android:debuggable="true"
+64        android:extractNativeLibs="false"
+65        android:icon="@mipmap/ic_launcher"
+65-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:40:9-43
+66        android:label="@string/appName"
+66-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:41:9-40
+67        android:supportsRtl="true"
+67-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:43:9-35
+68        android:testOnly="true"
+69        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+69-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:44:9-68
+70        <meta-data
+70-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:46:9-48:58
+71            android:name="asset_statements"
+71-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:47:13-44
+72            android:resource="@string/assetStatements" />
+72-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:48:13-55
+73        <meta-data
+73-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:51:13-53:58
+74            android:name="web_manifest_url"
+74-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:52:17-48
+75            android:value="@string/webManifestUrl" />
+75-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:53:17-55
+76        <meta-data
+76-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:56:9-58:52
+77            android:name="twa_generator"
+77-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:57:13-41
+78            android:value="@string/generatorApp" />
+78-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:58:13-49
+79
+80        <activity
+80-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:66:9-148:20
+81            android:name="com.gmail.omsjsr.smartcamera.LauncherActivity"
+81-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:66:19-50
+82            android:alwaysRetainTaskState="true"
+82-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:67:13-49
+83            android:exported="true"
+83-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:69:13-36
+84            android:label="@string/launcherName" >
+84-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:68:13-49
+85            <meta-data
+85-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:13-71:53
+86                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+86-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:24-85
+87                android:value="@string/launchUrl" />
+87-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:71:17-50
+88            <meta-data
+88-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:73:13-75:58
+89                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+89-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:74:17-83
+90                android:resource="@color/colorPrimary" />
+90-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:75:17-55
+91            <meta-data
+91-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:79:13-81:62
+92                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+92-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:80:17-88
+93                android:resource="@color/colorPrimaryDark" />
+93-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:81:17-59
+94            <meta-data
+94-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:83:13-85:61
+95                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+95-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:84:17-87
+96                android:resource="@color/navigationColor" />
+96-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:85:17-58
+97            <meta-data
+97-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:87:13-89:65
+98                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+98-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:88:17-92
+99                android:resource="@color/navigationColorDark" />
+99-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:89:17-62
+100            <meta-data
+100-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:91:13-93:68
+101                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+101-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:92:17-84
+102                android:resource="@color/navigationDividerColor" />
+102-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:93:17-65
+103            <meta-data
+103-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:95:13-97:72
+104                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+104-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:96:17-89
+105                android:resource="@color/navigationDividerColorDark" />
+105-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:97:17-69
+106            <meta-data
+106-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:13-100:54
+107                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+107-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:24-95
+108                android:resource="@drawable/splash" />
+108-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:100:17-52
+109            <meta-data
+109-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:13-103:60
+110                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+110-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:24-104
+111                android:resource="@color/backgroundColor" />
+111-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:103:17-58
+112            <meta-data
+112-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:13-106:71
+113                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+113-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:24-105
+114                android:value="@integer/splashScreenFadeOutDuration" />
+114-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:106:17-69
+115            <meta-data
+115-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:13-109:60
+116                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+116-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:24-97
+117                android:value="@string/providerAuthority" />
+117-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:109:17-58
+118            <meta-data
+118-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:13-97
+119                android:name="android.app.shortcuts"
+119-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:24-60
+120                android:resource="@xml/shortcuts" />
+120-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:61-94
+121            <meta-data
+121-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:113:13-114:56
+122                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+122-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:113:24-91
+123                android:value="@string/fallbackType" />
+123-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:114:17-53
+124            <meta-data
+124-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:119:13-120:52
+125                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+125-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:119:24-86
+126                android:value="sticky-immersive" />
+126-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:120:17-49
+127            <meta-data
+127-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:13-124:54
+128                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+128-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:24-92
+129                android:value="@string/orientation" />
+129-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:124:17-52
 130
-131                <category android:name="android.intent.category.DEFAULT" />
-131-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:17-76
-131-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:27-73
-132                <category android:name="android.intent.category.BROWSABLE" />
-132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:17-77
-132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:27-75
+131            <intent-filter>
+131-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:130:13-133:29
+132                <action android:name="android.intent.action.MAIN" />
+132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:131:17-69
+132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:131:25-66
 133
-134                <data
-134-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:17-142:19
-135                    android:host="@string/hostName"
-135-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:21-52
-136                    android:scheme="https" />
-136-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:23-45
-137            </intent-filter>
-138        </activity>
-139        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:150:9-90
-139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:150:19-87
-140        <activity
-140-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:152:9-153:62
-141            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-141-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:152:19-97
-142            android:configChanges="orientation|screenSize" />
-142-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:153:13-59
-143
-144        <provider
-144-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:155:9-163:20
-145            android:name="androidx.core.content.FileProvider"
-145-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:156:13-62
-146            android:authorities="@string/providerAuthority"
-146-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:157:13-60
-147            android:exported="false"
-147-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:159:13-37
-148            android:grantUriPermissions="true" >
-148-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:158:13-47
-149            <meta-data
-149-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:160:13-162:53
-150                android:name="android.support.FILE_PROVIDER_PATHS"
-150-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:161:17-67
-151                android:resource="@xml/filepaths" />
-151-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:162:17-50
-152        </provider>
-153
-154        <service
-154-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:165:9-180:19
-155            android:name="com.gmail.omsjsr.smartcamera.DelegationService"
-155-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:166:13-46
-156            android:enabled="@bool/enableNotification"
-156-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:167:13-55
-157            android:exported="@bool/enableNotification" >
-157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:168:13-56
-158            <meta-data
-158-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:171:17-173:73
-159                android:name="android.support.customtabs.trusted.SMALL_ICON"
-159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:172:21-81
-160                android:resource="@drawable/ic_notification_icon" />
-160-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:173:21-70
+134                <category android:name="android.intent.category.LAUNCHER" />
+134-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:132:17-77
+134-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:132:27-74
+135            </intent-filter>
+136            <intent-filter android:autoVerify="true" >
+136-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:13-143:29
+136-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:28-53
+137                <action android:name="android.intent.action.VIEW" />
+137-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:17-68
+137-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:17-76
+139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:17-77
+140-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:27-75
+141
+142                <data
+142-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:17-142:19
+143                    android:host="@string/hostName"
+143-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:21-52
+144                    android:scheme="https" />
+144-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:23-45
+145            </intent-filter>
+146        </activity>
+147        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+147-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:150:9-90
+147-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:150:19-87
+148        <activity
+148-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:152:9-153:62
+149            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+149-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:152:19-97
+150            android:configChanges="orientation|screenSize" />
+150-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:153:13-59
+151
+152        <provider
+152-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:155:9-163:20
+153            android:name="androidx.core.content.FileProvider"
+153-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:156:13-62
+154            android:authorities="@string/providerAuthority"
+154-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:157:13-60
+155            android:exported="false"
+155-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:159:13-37
+156            android:grantUriPermissions="true" >
+156-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:158:13-47
+157            <meta-data
+157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:160:13-162:53
+158                android:name="android.support.FILE_PROVIDER_PATHS"
+158-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:161:17-67
+159                android:resource="@xml/filepaths" />
+159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:162:17-50
+160        </provider>
 161
-162            <intent-filter>
-162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:176:13-179:29
-163                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-163-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:177:17-105
-163-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:177:25-103
-164
-165                <category android:name="android.intent.category.DEFAULT" />
-165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:17-76
-165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:27-73
-166            </intent-filter>
-167        </service>
-168
-169        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-169-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:183:13-118
-169-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:183:23-115
-170
-171        <provider
-171-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-172            android:name="androidx.startup.InitializationProvider"
-172-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-173            android:authorities="com.gmail.omsjsr.smartcamera.androidx-startup"
-173-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-174            android:exported="false" >
-174-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-175            <meta-data
-175-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-176                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-176-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-177                android:value="androidx.startup" />
-177-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\db0f2ad80b2b3db929b513a9fd68846c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-178            <meta-data
-178-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\437e230f44e5de61f88a79b5672b7682\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-179                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-179-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\437e230f44e5de61f88a79b5672b7682\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-180                android:value="androidx.startup" />
-180-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\437e230f44e5de61f88a79b5672b7682\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-181            <meta-data
-181-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-182                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-182-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-183                android:value="androidx.startup" />
-183-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-184        </provider>
-185
-186        <receiver
-186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-187            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-187-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-188            android:directBootAware="false"
-188-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-189            android:enabled="true"
-189-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-190            android:exported="true"
-190-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-191            android:permission="android.permission.DUMP" >
-191-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-192            <intent-filter>
-192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-193                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-194            </intent-filter>
-195            <intent-filter>
-195-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-196                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-197            </intent-filter>
-198            <intent-filter>
-198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-199                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-200            </intent-filter>
-201            <intent-filter>
-201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-202                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8959e029a192fb0271615c6fe5120245\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-203            </intent-filter>
-204        </receiver>
-205    </application>
-206
-207</manifest>
+162        <service
+162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:165:9-180:19
+163            android:name="com.gmail.omsjsr.smartcamera.DelegationService"
+163-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:166:13-46
+164            android:enabled="@bool/enableNotification"
+164-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:167:13-55
+165            android:exported="@bool/enableNotification" >
+165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:168:13-56
+166            <meta-data
+166-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:171:17-173:73
+167                android:name="android.support.customtabs.trusted.SMALL_ICON"
+167-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:172:21-81
+168                android:resource="@drawable/ic_notification_icon" />
+168-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:173:21-70
+169
+170            <intent-filter>
+170-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:176:13-179:29
+171                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+171-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:177:17-105
+171-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:177:25-103
+172
+173                <category android:name="android.intent.category.DEFAULT" />
+173-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:17-76
+173-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:137:27-73
+174            </intent-filter>
+175        </service>
+176
+177        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+177-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:183:13-118
+177-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:183:23-115
+178
+179        <service
+179-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:29:9-35:19
+180            android:name="com.google.firebase.components.ComponentDiscoveryService"
+180-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:30:13-84
+181            android:directBootAware="true"
+181-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:32:13-43
+182            android:exported="false" >
+182-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:31:13-37
+183            <meta-data
+183-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:32:13-34:85
+184                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+184-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:33:17-122
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\732308e2ce833099674f870bdee661ee\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:34:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:15:13-17:85
+187                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+187-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:16:17-126
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:17:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:18:13-20:85
+190                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+190-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:19:17-115
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:20:17-82
+192            <meta-data
+192-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+193                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+193-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\1aee9467fbfddd4594dcc0f616c06b53\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\43a02ec1d1d7a2c59b116b08b4756b72\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:25:13-27:85
+196                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+196-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\43a02ec1d1d7a2c59b116b08b4756b72\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:26:17-117
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\43a02ec1d1d7a2c59b116b08b4756b72\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:27:17-82
+198            <meta-data
+198-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:15:13-17:85
+199                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+199-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:16:17-130
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:17:17-82
+201            <meta-data
+201-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:18:13-20:85
+202                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+202-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:19:17-127
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\56c0762d5c1dd4cdbb8b6eab03fa4975\transformed\firebase-installations-19.0.0\AndroidManifest.xml:20:17-82
+204            <meta-data
+204-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:35:13-37:85
+205                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+205-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:36:17-109
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:37:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f791b883489a3db37e784b453b6db289\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:25:13-27:85
+208                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+208-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f791b883489a3db37e784b453b6db289\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:26:17-115
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f791b883489a3db37e784b453b6db289\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:27:17-82
+210        </service>
+211
+212        <provider
+212-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:23:9-28:39
+213            android:name="com.google.firebase.provider.FirebaseInitProvider"
+213-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:24:13-77
+214            android:authorities="com.gmail.omsjsr.smartcamera.firebaseinitprovider"
+214-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:25:13-72
+215            android:directBootAware="true"
+215-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:26:13-43
+216            android:exported="false"
+216-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:27:13-37
+217            android:initOrder="100" />
+217-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\AndroidManifest.xml:28:13-36
+218
+219        <service
+219-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:26:9-32:19
+220            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+220-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:27:13-103
+221            android:exported="false" >
+221-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:28:13-37
+222            <meta-data
+222-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:29:13-31:39
+223                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+223-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:30:17-94
+224                android:value="cct" />
+224-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bf261dca16b165c05c40d43410ad0af0\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:31:17-36
+225        </service>
+226        <service
+226-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:24:9-28:19
+227            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+227-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:25:13-117
+228            android:exported="false"
+228-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:26:13-37
+229            android:permission="android.permission.BIND_JOB_SERVICE" >
+229-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:27:13-69
+230        </service>
+231
+232        <receiver
+232-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:30:9-32:40
+233            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+233-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:31:13-132
+234            android:exported="false" />
+234-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\96b4765d52d209ab4c20fa7b812568fc\transformed\transport-runtime-3.3.0\AndroidManifest.xml:32:13-37
+235        <receiver
+235-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+236            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+236-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+237            android:enabled="true"
+237-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+238            android:exported="false" >
+238-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+239        </receiver>
+240
+241        <service
+241-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+242            android:name="com.google.android.gms.measurement.AppMeasurementService"
+242-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+243            android:enabled="true"
+243-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+244            android:exported="false" />
+244-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+245        <service
+245-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+246            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+246-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+249            android:permission="android.permission.BIND_JOB_SERVICE" />
+249-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c29133808589f43b7ff2cb46ec637c1\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+250
+251        <uses-library
+251-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\cdb1ff50b76eb384e01907673e573388\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+252            android:name="android.ext.adservices"
+252-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\cdb1ff50b76eb384e01907673e573388\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+253            android:required="false" />
+253-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\cdb1ff50b76eb384e01907673e573388\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+254
+255        <activity
+255-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\268e9a7d35bab9d9b5f25352a6590ffa\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+256            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+256-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\268e9a7d35bab9d9b5f25352a6590ffa\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\268e9a7d35bab9d9b5f25352a6590ffa\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+258-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\268e9a7d35bab9d9b5f25352a6590ffa\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+259
+260        <meta-data
+260-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\e958cbdebb5a76c20c757d5516bcde1a\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+261            android:name="com.google.android.gms.version"
+261-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\e958cbdebb5a76c20c757d5516bcde1a\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+262            android:value="@integer/google_play_services_version" />
+262-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\e958cbdebb5a76c20c757d5516bcde1a\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+263
+264        <provider
+264-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+265            android:name="androidx.startup.InitializationProvider"
+265-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+266            android:authorities="com.gmail.omsjsr.smartcamera.androidx-startup"
+266-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+267            android:exported="false" >
+267-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+268            <meta-data
+268-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+269                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+269-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+270                android:value="androidx.startup" />
+270-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+271            <meta-data
+271-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\85a807329b9550783be1eabbc09582e8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+272                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+272-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\85a807329b9550783be1eabbc09582e8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+273                android:value="androidx.startup" />
+273-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\85a807329b9550783be1eabbc09582e8\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+274            <meta-data
+274-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+275                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+276                android:value="androidx.startup" />
+276-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+277        </provider>
+278
+279        <receiver
+279-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+280            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+280-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+281            android:directBootAware="false"
+281-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+282            android:enabled="true"
+282-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+283            android:exported="true"
+283-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+284            android:permission="android.permission.DUMP" >
+284-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+285            <intent-filter>
+285-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+286                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+287            </intent-filter>
+288            <intent-filter>
+288-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+289                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+290            </intent-filter>
+291            <intent-filter>
+291-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+292                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+293            </intent-filter>
+294            <intent-filter>
+294-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+295                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+296            </intent-filter>
+297        </receiver>
+298    </application>
+299
+300</manifest>

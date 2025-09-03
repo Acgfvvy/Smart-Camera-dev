@@ -15,16 +15,16 @@
  */
 package com.gmail.omsjsr.smartcamera;
 
-
+import com.google.firebase.FirebaseApp;
 
 public class Application extends android.app.Application {
 
-  
+    @Override
+    public void onCreate() {
+        super.onCreate();
 
-  /** @noinspection EmptyMethod*/
-  @Override
-  public void onCreate() {
-      super.onCreate();
-      
-  }
+        // Initialize Firebase SDK
+        FirebaseApp.initializeApp(this);
+
+    }
 }

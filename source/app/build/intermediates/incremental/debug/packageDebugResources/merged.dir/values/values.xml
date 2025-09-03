@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <bool name="enableNotification">false</bool>
-    <bool name="enableSiteSettingsShortcut">false</bool>
     <color name="backgroundColor">#FFFFFF</color>
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
@@ -9,7 +8,6 @@
     <color name="navigationColorDark">#FFFFFF</color>
     <color name="navigationDividerColor">#FFFFFF</color>
     <color name="navigationDividerColorDark">#FFFFFF</color>
-    <color name="shortcut_background">#F5F5F5</color>
     <integer name="splashScreenFadeOutDuration">300</integer>
     <string name="appName" translatable="false">Smart Camera</string>
     <string name="assetStatements">
@@ -23,7 +21,6 @@
     
   </string>
     <string name="fallbackType" translatable="false">webview</string>
-    <string name="fullScopeUrl" translatable="false">https://smart-camera-3-15-2013.web.app/</string>
     <string name="generatorApp" translatable="false">PWABuilder</string>
     <string name="hostName" translatable="false">smart-camera-3-15-2013.web.app</string>
     <string name="launchUrl" translatable="false">https://smart-camera-3-15-2013.web.app/index.html</string>

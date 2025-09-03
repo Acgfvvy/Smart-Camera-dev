@@ -6,8 +6,6 @@
     <!-- Value from default config. -->
     <bool name="enableNotification">false</bool>
     <!-- Value from default config. -->
-    <bool name="enableSiteSettingsShortcut">false</bool>
-    <!-- Value from default config. -->
     <color name="backgroundColor">#FFFFFF</color>
     <!-- Value from default config. -->
     <color name="colorPrimary">#FFFFFF</color>
@@ -27,8 +25,6 @@
     <string name="appName" translatable="false">Smart Camera</string>
     <!-- Value from default config. -->
     <string name="fallbackType" translatable="false">webview</string>
-    <!-- Value from default config. -->
-    <string name="fullScopeUrl" translatable="false">https://smart-camera-3-15-2013.web.app/</string>
     <!-- Value from default config. -->
     <string name="generatorApp" translatable="false">PWABuilder</string>
     <!-- Value from default config. -->
