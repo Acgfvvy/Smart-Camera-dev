@@ -31,821 +31,821 @@
 31        android:targetSdkVersion="35" />
 32
 33    <uses-permission android:name="android.permission.INTERNET" />
-33-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:26:9-70
-33-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:26:26-68
+33-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:25:9-70
+33-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:25:26-68
 34    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-34-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:28:9-80
-34-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:28:26-78
+34-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:27:9-80
+34-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:27:26-78
 35
 36    <queries>
-36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\3009547e69e73a1b7f746b38911de2a1\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:22:5-30:15
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\90b9afe5885bbcc50b6d323c7d2231a2\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:22:5-30:15
 37        <intent>
-37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\3009547e69e73a1b7f746b38911de2a1\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:23:9-29:18
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\90b9afe5885bbcc50b6d323c7d2231a2\transformed\androidbrowserhelper-2.6.2\AndroidManifest.xml:23:9-29:18
 38            <action android:name="android.intent.action.VIEW" />
-38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:17-68
-38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:25-66
+38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:17-68
+38-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:25-66
 39
 40            <category android:name="android.intent.category.BROWSABLE" />
-40-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-77
-40-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:27-75
+40-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:17-77
+40-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:27-75
 41
 42            <data android:scheme="https" />
-42-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:17-146:19
-42-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:23-45
+42-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-145:19
+42-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:23-45
 43        </intent>
 44        <!-- End of browser content -->
 45        <!-- For CustomTabsService -->
 46        <intent>
-46-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:47:9-49:18
+46-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:47:9-49:18
 47            <action android:name="android.support.customtabs.action.CustomTabsService" />
-47-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:48:13-90
-47-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:48:21-87
+47-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:48:13-90
+47-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:48:21-87
 48        </intent> <!-- End of CustomTabsService -->
 49        <!-- For MRAID capabilities -->
 50        <intent>
-50-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:52:9-56:18
+50-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:52:9-56:18
 51            <action android:name="android.intent.action.INSERT" />
-51-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:53:13-67
-51-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:53:21-64
+51-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:53:13-67
+51-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:53:21-64
 52
 53            <data android:mimeType="vnd.android.cursor.dir/event" />
-53-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:17-146:19
+53-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-145:19
 54        </intent>
 55        <intent>
-55-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:57:9-61:18
+55-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:57:9-61:18
 56            <action android:name="android.intent.action.VIEW" />
-56-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:17-68
-56-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:25-66
+56-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:17-68
+56-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:25-66
 57
 58            <data android:scheme="sms" />
-58-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:17-146:19
-58-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:23-45
+58-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-145:19
+58-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:23-45
 59        </intent>
 60        <intent>
-60-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:62:9-66:18
+60-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:62:9-66:18
 61            <action android:name="android.intent.action.DIAL" />
-61-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:63:13-65
-61-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:63:21-62
+61-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:63:13-65
+61-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:63:21-62
 62
 63            <data android:path="tel:" />
-63-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:17-146:19
+63-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-145:19
 64        </intent>
 65    </queries>
 66
 67    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-67-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:25:5-79
-67-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:25:22-76
+67-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:25:5-79
+67-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:25:22-76
 68    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-68-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:26:5-79
-68-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:26:22-76
+68-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:26:5-79
+68-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:26:22-76
 69    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-69-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:27:5-82
-69-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:27:22-79
+69-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:27:5-82
+69-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:27:22-79
 70    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-70-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:28:5-88
-70-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:28:22-85
+70-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:28:5-88
+70-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:28:22-85
 71    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
-71-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:29:5-83
-71-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:29:22-80
+71-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:29:5-83
+71-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:29:22-80
 72    <uses-permission android:name="android.permission.WAKE_LOCK" />
-72-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\00f55aedf8eb1f079c787c88625f2f00\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
-72-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\00f55aedf8eb1f079c787c88625f2f00\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
+72-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\09d4a5b87e88557a1ba1ea129876c93f\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:5-68
+72-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\09d4a5b87e88557a1ba1ea129876c93f\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:24:22-65
 73    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-73-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
-73-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+73-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+73-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
 74    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-74-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
-74-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+74-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+74-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
 75
 76    <permission
-76-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+76-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 77        android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-77-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+77-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
 78        android:protectionLevel="signature" />
-78-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+78-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 79
 80    <uses-permission android:name="com.gmail.omsjsr.smartcamera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-80-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-80-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+80-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+80-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 81
 82    <application
-82-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:37:5-191:19
+82-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:36:5-190:19
 83        android:name="com.gmail.omsjsr.smartcamera.Application"
-83-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:38:9-35
+83-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:37:9-35
 84        android:allowBackup="true"
-84-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:39:9-35
+84-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:38:9-35
 85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-85-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+85-->[androidx.core:core:1.13.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\3c1712efc963183ecfc3229eb58479ab\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 86        android:debuggable="true"
 87        android:extractNativeLibs="false"
 88        android:icon="@mipmap/ic_launcher"
-88-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:40:9-43
+88-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:39:9-43
 89        android:label="@string/appName"
-89-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:41:9-40
+89-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:40:9-40
 90        android:supportsRtl="true"
-90-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:43:9-35
+90-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:42:9-35
 91        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-91-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:44:9-68
+91-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:43:9-68
 92        <meta-data
-92-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:46:9-48:51
+92-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:45:9-47:51
 93            android:name="com.google.android.gms.ads.APPLICATION_ID"
-93-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:47:13-69
+93-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:46:13-69
 94            android:value="@string/admob_app_id" />
-94-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:48:13-49
+94-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:47:13-49
 95        <meta-data
-95-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:50:9-52:58
+95-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:49:9-51:58
 96            android:name="asset_statements"
-96-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:51:13-44
+96-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:50:13-44
 97            android:resource="@string/assetStatements" />
-97-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:52:13-55
+97-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:51:13-55
 98        <meta-data
-98-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:55:13-57:58
+98-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:54:13-56:58
 99            android:name="web_manifest_url"
-99-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:56:17-48
+99-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:55:17-48
 100            android:value="@string/webManifestUrl" />
-100-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:57:17-55
+100-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:56:17-55
 101        <meta-data
-101-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:60:9-62:52
+101-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:59:9-61:52
 102            android:name="twa_generator"
-102-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:61:13-41
+102-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:60:13-41
 103            android:value="@string/generatorApp" />
-103-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:62:13-49
+103-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:61:13-49
 104
 105        <activity
-105-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:9-152:20
+105-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:69:9-151:20
 106            android:name="com.gmail.omsjsr.smartcamera.LauncherActivity"
-106-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:19-50
+106-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:69:19-50
 107            android:alwaysRetainTaskState="true"
-107-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:71:13-49
+107-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:70:13-49
 108            android:exported="true"
-108-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:73:13-36
+108-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:72:13-36
 109            android:label="@string/launcherName" >
-109-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:72:13-49
+109-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:71:13-49
 110            <meta-data
-110-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:74:13-75:53
+110-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:73:13-74:53
 111                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-111-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:74:24-85
+111-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:73:24-85
 112                android:value="@string/launchUrl" />
-112-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:75:17-50
+112-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:74:17-50
 113            <meta-data
-113-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:77:13-79:58
+113-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:76:13-78:58
 114                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-114-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:78:17-83
+114-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:77:17-83
 115                android:resource="@color/colorPrimary" />
-115-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:79:17-55
+115-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:78:17-55
 116            <meta-data
-116-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:83:13-85:62
+116-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:82:13-84:62
 117                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
-117-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:84:17-88
+117-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:83:17-88
 118                android:resource="@color/colorPrimaryDark" />
-118-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:85:17-59
+118-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:84:17-59
 119            <meta-data
-119-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:87:13-89:61
+119-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:86:13-88:61
 120                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-120-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:88:17-87
+120-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:87:17-87
 121                android:resource="@color/navigationColor" />
-121-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:89:17-58
+121-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:88:17-58
 122            <meta-data
-122-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:91:13-93:65
+122-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:90:13-92:65
 123                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
-123-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:92:17-92
+123-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:91:17-92
 124                android:resource="@color/navigationColorDark" />
-124-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:93:17-62
+124-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:92:17-62
 125            <meta-data
-125-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:95:13-97:68
+125-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:94:13-96:68
 126                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
-126-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:96:17-84
+126-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:95:17-84
 127                android:resource="@color/navigationDividerColor" />
-127-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:97:17-65
+127-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:96:17-65
 128            <meta-data
-128-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:13-101:72
+128-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:98:13-100:72
 129                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
-129-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:100:17-89
+129-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:99:17-89
 130                android:resource="@color/navigationDividerColorDark" />
-130-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:101:17-69
+130-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:100:17-69
 131            <meta-data
-131-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:103:13-104:54
+131-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:13-103:54
 132                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:103:24-95
+132-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:102:24-95
 133                android:resource="@drawable/splash" />
-133-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:104:17-52
+133-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:103:17-52
 134            <meta-data
-134-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:106:13-107:60
+134-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:13-106:60
 135                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-135-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:106:24-104
+135-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:105:24-104
 136                android:resource="@color/backgroundColor" />
-136-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:107:17-58
+136-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:106:17-58
 137            <meta-data
-137-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:109:13-110:71
+137-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:13-109:71
 138                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
-138-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:109:24-105
+138-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:108:24-105
 139                android:value="@integer/splashScreenFadeOutDuration" />
-139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:110:17-69
+139-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:109:17-69
 140            <meta-data
-140-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:112:13-113:60
+140-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:13-112:60
 141                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
-141-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:112:24-97
+141-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:111:24-97
 142                android:value="@string/providerAuthority" />
-142-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:113:17-58
+142-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:112:17-58
 143            <meta-data
-143-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:115:13-97
+143-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:114:13-97
 144                android:name="android.app.shortcuts"
-144-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:115:24-60
+144-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:114:24-60
 145                android:resource="@xml/shortcuts" />
-145-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:115:61-94
+145-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:114:61-94
 146            <meta-data
-146-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:117:13-118:56
+146-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:116:13-117:56
 147                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
-147-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:117:24-91
+147-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:116:24-91
 148                android:value="@string/fallbackType" />
-148-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:118:17-53
+148-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:117:17-53
 149            <meta-data
-149-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:13-124:52
+149-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:122:13-123:52
 150                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
-150-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:24-86
+150-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:122:24-86
 151                android:value="sticky-immersive" />
-151-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:124:17-49
+151-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:123:17-49
 152            <meta-data
-152-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:127:13-128:54
+152-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:126:13-127:54
 153                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
-153-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:127:24-92
+153-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:126:24-92
 154                android:value="@string/orientation" />
-154-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:128:17-52
+154-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:127:17-52
 155
 156            <intent-filter>
-156-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:134:13-137:29
+156-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:133:13-136:29
 157                <action android:name="android.intent.action.MAIN" />
-157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:17-69
-157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:25-66
+157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:134:17-69
+157-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:134:25-66
 158
 159                <category android:name="android.intent.category.LAUNCHER" />
-159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:17-77
-159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:136:27-74
+159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:17-77
+159-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:135:27-74
 160            </intent-filter>
 161            <intent-filter android:autoVerify="true" >
-161-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:13-147:29
-161-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:28-53
+161-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:13-146:29
+161-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:138:28-53
 162                <action android:name="android.intent.action.VIEW" />
-162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:17-68
-162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:25-66
+162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:17-68
+162-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:139:25-66
 163
 164                <category android:name="android.intent.category.DEFAULT" />
-164-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:17-76
-164-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:27-73
+164-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:17-76
+164-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:27-73
 165                <category android:name="android.intent.category.BROWSABLE" />
-165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-77
-165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:27-75
+165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:17-77
+165-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:27-75
 166
 167                <data
-167-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:17-146:19
+167-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:17-145:19
 168                    android:host="@string/hostName"
-168-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:144:21-52
+168-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:21-52
 169                    android:scheme="https" />
-169-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:143:23-45
+169-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:142:23-45
 170            </intent-filter>
 171        </activity>
 172        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-172-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:154:9-90
-172-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:154:19-87
+172-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:153:9-90
+172-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:153:19-87
 173        <activity
-173-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:156:9-157:62
+173-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:155:9-156:62
 174            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-174-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:156:19-97
+174-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:155:19-97
 175            android:configChanges="orientation|screenSize" />
-175-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:157:13-59
+175-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:156:13-59
 176
 177        <provider
-177-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:159:9-167:20
+177-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:158:9-166:20
 178            android:name="androidx.core.content.FileProvider"
-178-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:160:13-62
+178-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:159:13-62
 179            android:authorities="@string/providerAuthority"
-179-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:161:13-60
+179-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:160:13-60
 180            android:exported="false"
-180-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:163:13-37
+180-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:162:13-37
 181            android:grantUriPermissions="true" >
-181-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:162:13-47
+181-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:161:13-47
 182            <meta-data
-182-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:164:13-166:53
+182-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:163:13-165:53
 183                android:name="android.support.FILE_PROVIDER_PATHS"
-183-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:165:17-67
+183-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:164:17-67
 184                android:resource="@xml/filepaths" />
-184-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:166:17-50
+184-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:165:17-50
 185        </provider>
 186
 187        <service
-187-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:169:9-184:19
+187-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:168:9-183:19
 188            android:name="com.gmail.omsjsr.smartcamera.DelegationService"
-188-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:170:13-46
+188-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:169:13-46
 189            android:enabled="@bool/enableNotification"
-189-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:171:13-55
+189-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:170:13-55
 190            android:exported="@bool/enableNotification" >
-190-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:172:13-56
+190-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:171:13-56
 191            <meta-data
-191-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:175:17-177:73
+191-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:174:17-176:73
 192                android:name="android.support.customtabs.trusted.SMALL_ICON"
-192-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:176:21-81
+192-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:175:21-81
 193                android:resource="@drawable/ic_notification_icon" />
-193-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:177:21-70
+193-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:176:21-70
 194
 195            <intent-filter>
-195-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:180:13-183:29
+195-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:179:13-182:29
 196                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-196-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:181:17-105
-196-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:181:25-103
+196-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:180:17-105
+196-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:180:25-103
 197
 198                <category android:name="android.intent.category.DEFAULT" />
-198-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:17-76
-198-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:141:27-73
+198-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:17-76
+198-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:140:27-73
 199            </intent-filter>
 200        </service>
 201
 202        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-202-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:187:13-118
-202-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:187:23-115
+202-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:186:13-118
+202-->C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\AndroidManifest.xml:186:23-115
 203
 204        <service
-204-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:29:9-35:19
+204-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:29:9-35:19
 205            android:name="com.google.firebase.components.ComponentDiscoveryService"
-205-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:30:13-84
+205-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:30:13-84
 206            android:directBootAware="true"
-206-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:32:13-43
+206-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:32:13-43
 207            android:exported="false" >
-207-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:31:13-37
+207-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:31:13-37
 208            <meta-data
-208-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:32:13-34:85
+208-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:32:13-34:85
 209                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
-209-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:33:17-122
+209-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:33:17-122
 210                android:value="com.google.firebase.components.ComponentRegistrar" />
-210-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\8bb1353d879179caf533bd5a495f6a21\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:34:17-82
+210-->[com.google.firebase:firebase-crashlytics-ndk:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dca84355445a4f6995d4c88fc165868e\transformed\firebase-crashlytics-ndk-20.0.1\AndroidManifest.xml:34:17-82
 211            <meta-data
-211-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:15:13-17:85
+211-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:15:13-17:85
 212                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
-212-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:16:17-126
+212-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:16:17-126
 213                android:value="com.google.firebase.components.ComponentRegistrar" />
-213-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:17:17-82
+213-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:17:17-82
 214            <meta-data
-214-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:18:13-20:85
+214-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:18:13-20:85
 215                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-215-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:19:17-115
+215-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:19:17-115
 216                android:value="com.google.firebase.components.ComponentRegistrar" />
-216-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:20:17-82
+216-->[com.google.firebase:firebase-crashlytics:20.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\13c62e3b5183a8f9fe7eb288e82b460a\transformed\firebase-crashlytics-20.0.1\AndroidManifest.xml:20:17-82
 217            <meta-data
-217-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\00f55aedf8eb1f079c787c88625f2f00\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+217-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\09d4a5b87e88557a1ba1ea129876c93f\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
 218                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-218-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\00f55aedf8eb1f079c787c88625f2f00\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+218-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\09d4a5b87e88557a1ba1ea129876c93f\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
 219                android:value="com.google.firebase.components.ComponentRegistrar" />
-219-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\00f55aedf8eb1f079c787c88625f2f00\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+219-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\09d4a5b87e88557a1ba1ea129876c93f\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
 220            <meta-data
-220-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\a2feb87c1eb2898a23d11f735a722a40\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:25:13-27:85
+220-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\9431acd659610dfb8b30b71beb58ba5d\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:25:13-27:85
 221                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
-221-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\a2feb87c1eb2898a23d11f735a722a40\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:26:17-117
+221-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\9431acd659610dfb8b30b71beb58ba5d\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:26:17-117
 222                android:value="com.google.firebase.components.ComponentRegistrar" />
-222-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\a2feb87c1eb2898a23d11f735a722a40\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:27:17-82
+222-->[com.google.firebase:firebase-sessions:3.0.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\9431acd659610dfb8b30b71beb58ba5d\transformed\firebase-sessions-3.0.1\AndroidManifest.xml:27:17-82
 223            <meta-data
-223-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:15:13-17:85
+223-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:15:13-17:85
 224                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-224-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:16:17-130
+224-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:16:17-130
 225                android:value="com.google.firebase.components.ComponentRegistrar" />
-225-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:17:17-82
+225-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:17:17-82
 226            <meta-data
-226-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:18:13-20:85
+226-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:18:13-20:85
 227                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-227-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:19:17-127
+227-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:19:17-127
 228                android:value="com.google.firebase.components.ComponentRegistrar" />
-228-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\ebc09832257f1cb388c8946d64627b44\transformed\firebase-installations-19.0.0\AndroidManifest.xml:20:17-82
+228-->[com.google.firebase:firebase-installations:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7549b6a85f875e4a28a9142bc59bfb1b\transformed\firebase-installations-19.0.0\AndroidManifest.xml:20:17-82
 229            <meta-data
-229-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:35:13-37:85
+229-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:35:13-37:85
 230                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-230-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:36:17-109
+230-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:36:17-109
 231                android:value="com.google.firebase.components.ComponentRegistrar" />
-231-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:37:17-82
+231-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:37:17-82
 232            <meta-data
-232-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\2e82b3be01dd455e74a0344b7fe0abd3\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:25:13-27:85
+232-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b0b01616785d241ff97e128fc9515924\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:25:13-27:85
 233                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-233-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\2e82b3be01dd455e74a0344b7fe0abd3\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:26:17-115
+233-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b0b01616785d241ff97e128fc9515924\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:26:17-115
 234                android:value="com.google.firebase.components.ComponentRegistrar" />
-234-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\2e82b3be01dd455e74a0344b7fe0abd3\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:27:17-82
+234-->[com.google.firebase:firebase-datatransport:19.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b0b01616785d241ff97e128fc9515924\transformed\firebase-datatransport-19.0.0\AndroidManifest.xml:27:17-82
 235        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
 236        <activity
-236-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:73:9-78:43
+236-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:73:9-78:43
 237            android:name="com.google.android.gms.ads.AdActivity"
-237-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:74:13-65
+237-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:74:13-65
 238            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-238-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:75:13-122
+238-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:75:13-122
 239            android:exported="false"
-239-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:76:13-37
+239-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:76:13-37
 240            android:theme="@android:style/Theme.Translucent" />
-240-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:77:13-61
+240-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:77:13-61
 241
 242        <provider
-242-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:80:9-85:43
+242-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:80:9-85:43
 243            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-243-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:81:13-76
+243-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:81:13-76
 244            android:authorities="com.gmail.omsjsr.smartcamera.mobileadsinitprovider"
-244-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:82:13-73
+244-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:82:13-73
 245            android:exported="false"
-245-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:83:13-37
+245-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:83:13-37
 246            android:initOrder="100" />
-246-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:84:13-36
+246-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:84:13-36
 247
 248        <service
-248-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:87:9-91:43
+248-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:87:9-91:43
 249            android:name="com.google.android.gms.ads.AdService"
-249-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:88:13-64
+249-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:88:13-64
 250            android:enabled="true"
-250-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:89:13-35
+250-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:89:13-35
 251            android:exported="false" />
-251-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:90:13-37
+251-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:90:13-37
 252
 253        <activity
-253-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:93:9-97:43
+253-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:93:9-97:43
 254            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-254-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:94:13-82
+254-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:94:13-82
 255            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-255-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:95:13-122
+255-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:95:13-122
 256            android:exported="false" />
-256-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:96:13-37
+256-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:96:13-37
 257        <activity
-257-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:98:9-105:43
+257-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:98:9-105:43
 258            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-258-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:99:13-82
+258-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:99:13-82
 259            android:excludeFromRecents="true"
-259-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:100:13-46
+259-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:100:13-46
 260            android:exported="false"
-260-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:101:13-37
+260-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:101:13-37
 261            android:launchMode="singleTask"
-261-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:102:13-44
+261-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:102:13-44
 262            android:taskAffinity=""
-262-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:103:13-36
+262-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:103:13-36
 263            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-263-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:104:13-72
+263-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:104:13-72
 264
 265        <meta-data
-265-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:107:9-109:36
+265-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:107:9-109:36
 266            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
-266-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:108:13-79
+266-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:108:13-79
 267            android:value="true" />
-267-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:109:13-33
+267-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:109:13-33
 268        <meta-data
-268-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:110:9-112:36
+268-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:110:9-112:36
 269            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-269-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:111:13-83
+269-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:111:13-83
 270            android:value="true" />
-270-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:112:13-33
+270-->[com.google.android.gms:play-services-ads-api:24.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8fb396e7bcbd7a52cf153b79fff6f48\transformed\play-services-ads-api-24.5.0\AndroidManifest.xml:112:13-33
 271
 272        <provider
-272-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:23:9-28:39
+272-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:23:9-28:39
 273            android:name="com.google.firebase.provider.FirebaseInitProvider"
-273-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:24:13-77
+273-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:24:13-77
 274            android:authorities="com.gmail.omsjsr.smartcamera.firebaseinitprovider"
-274-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:25:13-72
+274-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:25:13-72
 275            android:directBootAware="true"
-275-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:26:13-43
+275-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:26:13-43
 276            android:exported="false"
-276-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:27:13-37
+276-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:27:13-37
 277            android:initOrder="100" />
-277-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\AndroidManifest.xml:28:13-36
+277-->[com.google.firebase:firebase-common:22.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f4bc42b5ae22d8d554ab31d689b1ad46\transformed\firebase-common-22.0.0\AndroidManifest.xml:28:13-36
 278
 279        <service
-279-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:26:9-32:19
+279-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:26:9-32:19
 280            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-280-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:27:13-103
+280-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:27:13-103
 281            android:exported="false" >
-281-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:28:13-37
+281-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:28:13-37
 282            <meta-data
-282-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:29:13-31:39
+282-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:29:13-31:39
 283                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-283-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:30:17-94
+283-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:30:17-94
 284                android:value="cct" />
-284-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b8a0e6b7914033ea778308e52cf42f05\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:31:17-36
+284-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\d735d00953cad4cf7130fe988f2858c1\transformed\transport-backend-cct-3.3.0\AndroidManifest.xml:31:17-36
 285        </service>
 286        <service
-286-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:24:9-28:19
+286-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:24:9-28:19
 287            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-287-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:25:13-117
+287-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:25:13-117
 288            android:exported="false"
-288-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:26:13-37
+288-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:26:13-37
 289            android:permission="android.permission.BIND_JOB_SERVICE" >
-289-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:27:13-69
+289-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:27:13-69
 290        </service>
 291
 292        <receiver
-292-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:30:9-32:40
+292-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:30:9-32:40
 293            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-293-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:31:13-132
+293-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:31:13-132
 294            android:exported="false" />
-294-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\8149cd3d9f0ef7a95938610a73db6f3c\transformed\transport-runtime-3.3.0\AndroidManifest.xml:32:13-37
+294-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\7c0cbe7446e9e092b6cdcf1f52a5bdb2\transformed\transport-runtime-3.3.0\AndroidManifest.xml:32:13-37
 295        <receiver
-295-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+295-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
 296            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-296-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+296-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
 297            android:enabled="true"
-297-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+297-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
 298            android:exported="false" >
-298-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+298-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
 299        </receiver>
 300
 301        <service
-301-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+301-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
 302            android:name="com.google.android.gms.measurement.AppMeasurementService"
-302-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+302-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
 303            android:enabled="true"
-303-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+303-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
 304            android:exported="false" />
-304-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+304-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
 305        <service
-305-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+305-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
 306            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-306-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+306-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
 307            android:enabled="true"
-307-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+307-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
 308            android:exported="false"
-308-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+308-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
 309            android:permission="android.permission.BIND_JOB_SERVICE" />
-309-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\208b0e1c62c5d2eeb44458601e556577\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+309-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\f8351b50474b6004df79708be00f7f04\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
 310
 311        <uses-library
-311-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\0ba44e571e9a5212a23b245d567bf9dd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+311-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\a729cc79d513af96e1f8e4a1da62aa89\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
 312            android:name="android.ext.adservices"
-312-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\0ba44e571e9a5212a23b245d567bf9dd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+312-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\a729cc79d513af96e1f8e4a1da62aa89\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
 313            android:required="false" />
-313-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\0ba44e571e9a5212a23b245d567bf9dd\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+313-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\omsjs\.gradle\caches\8.13\transforms\a729cc79d513af96e1f8e4a1da62aa89\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
 314
 315        <activity
-315-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\66cf32e1adfd79712fa2a154712c3545\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+315-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\4dabf8152e24637f605e8a4a833bcee7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
 316            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-316-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\66cf32e1adfd79712fa2a154712c3545\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+316-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\4dabf8152e24637f605e8a4a833bcee7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
 317            android:exported="false"
-317-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\66cf32e1adfd79712fa2a154712c3545\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+317-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\4dabf8152e24637f605e8a4a833bcee7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
 318            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-318-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\66cf32e1adfd79712fa2a154712c3545\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+318-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\4dabf8152e24637f605e8a4a833bcee7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
 319
 320        <meta-data
-320-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\fb47e55cd2352c96ec39c0b92bb80fb6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+320-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c5fecdd050c73804f62a7d179fba2467\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
 321            android:name="com.google.android.gms.version"
-321-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\fb47e55cd2352c96ec39c0b92bb80fb6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+321-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c5fecdd050c73804f62a7d179fba2467\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
 322            android:value="@integer/google_play_services_version" />
-322-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\fb47e55cd2352c96ec39c0b92bb80fb6\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+322-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\c5fecdd050c73804f62a7d179fba2467\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
 323
 324        <provider
-324-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+324-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 325            android:name="androidx.startup.InitializationProvider"
-325-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+325-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 326            android:authorities="com.gmail.omsjsr.smartcamera.androidx-startup"
-326-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+326-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 327            android:exported="false" >
-327-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+327-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 328            <meta-data
-328-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+328-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 329                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-329-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+329-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 330                android:value="androidx.startup" />
-330-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+330-->[androidx.emoji2:emoji2:1.3.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\bd407175092971d3dd38b157008c6182\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 331            <meta-data
-331-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+331-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
 332                android:name="androidx.work.WorkManagerInitializer"
-332-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+332-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
 333                android:value="androidx.startup" />
-333-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+333-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
 334            <meta-data
-334-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\8cec49736eba1fd370f2cff5f337b14f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+334-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\e3ba375e8c43382e15768244b29a7f42\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 335                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-335-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\8cec49736eba1fd370f2cff5f337b14f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+335-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\e3ba375e8c43382e15768244b29a7f42\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 336                android:value="androidx.startup" />
-336-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\8cec49736eba1fd370f2cff5f337b14f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+336-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\omsjs\.gradle\caches\8.13\transforms\e3ba375e8c43382e15768244b29a7f42\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 337            <meta-data
-337-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+337-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
 338                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-338-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+338-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
 339                android:value="androidx.startup" />
-339-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+339-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
 340        </provider>
 341
 342        <service
-342-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+342-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
 343            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-343-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+343-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
 344            android:directBootAware="false"
-344-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+344-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
 345            android:enabled="@bool/enable_system_alarm_service_default"
-345-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+345-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
 346            android:exported="false" />
-346-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+346-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
 347        <service
-347-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+347-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
 348            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-348-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+348-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
 349            android:directBootAware="false"
-349-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+349-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
 350            android:enabled="@bool/enable_system_job_service_default"
-350-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+350-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
 351            android:exported="true"
-351-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+351-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
 352            android:permission="android.permission.BIND_JOB_SERVICE" />
-352-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+352-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
 353        <service
-353-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+353-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
 354            android:name="androidx.work.impl.foreground.SystemForegroundService"
-354-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+354-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
 355            android:directBootAware="false"
-355-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+355-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
 356            android:enabled="@bool/enable_system_foreground_service_default"
-356-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+356-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
 357            android:exported="false" />
-357-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+357-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
 358
 359        <receiver
-359-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+359-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
 360            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-360-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+360-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
 361            android:directBootAware="false"
-361-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+361-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
 362            android:enabled="true"
-362-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
 363            android:exported="false" />
-363-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
 364        <receiver
-364-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+364-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
 365            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-365-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+365-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
 366            android:directBootAware="false"
-366-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+366-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
 367            android:enabled="false"
-367-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+367-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
 368            android:exported="false" >
-368-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+368-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
 369            <intent-filter>
-369-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+369-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
 370                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-370-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
-370-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+370-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+370-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
 371                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-371-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
-371-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+371-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+371-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
 372            </intent-filter>
 373        </receiver>
 374        <receiver
-374-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+374-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
 375            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-375-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+375-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
 376            android:directBootAware="false"
-376-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+376-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
 377            android:enabled="false"
-377-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+377-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
 378            android:exported="false" >
-378-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+378-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
 379            <intent-filter>
-379-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+379-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
 380                <action android:name="android.intent.action.BATTERY_OKAY" />
-380-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
-380-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
 381                <action android:name="android.intent.action.BATTERY_LOW" />
-381-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
-381-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
 382            </intent-filter>
 383        </receiver>
 384        <receiver
-384-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+384-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
 385            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-385-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+385-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
 386            android:directBootAware="false"
-386-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+386-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
 387            android:enabled="false"
-387-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+387-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
 388            android:exported="false" >
-388-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+388-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
 389            <intent-filter>
-389-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+389-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
 390                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-390-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
-390-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+390-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+390-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
 391                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-391-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
-391-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
 392            </intent-filter>
 393        </receiver>
 394        <receiver
-394-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+394-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
 395            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-395-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+395-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
 396            android:directBootAware="false"
-396-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+396-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
 397            android:enabled="false"
-397-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+397-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
 398            android:exported="false" >
-398-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+398-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
 399            <intent-filter>
-399-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+399-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
 400                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-400-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
-400-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+400-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+400-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
 401            </intent-filter>
 402        </receiver>
 403        <receiver
-403-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+403-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
 404            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-404-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+404-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
 405            android:directBootAware="false"
-405-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+405-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
 406            android:enabled="false"
-406-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+406-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
 407            android:exported="false" >
-407-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+407-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
 408            <intent-filter>
-408-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+408-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
 409                <action android:name="android.intent.action.BOOT_COMPLETED" />
-409-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
-409-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+409-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+409-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
 410                <action android:name="android.intent.action.TIME_SET" />
-410-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
-410-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+410-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+410-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
 411                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-411-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
-411-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
 412            </intent-filter>
 413        </receiver>
 414        <receiver
-414-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+414-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
 415            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-415-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+415-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
 416            android:directBootAware="false"
-416-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+416-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
 417            android:enabled="@bool/enable_system_alarm_service_default"
-417-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+417-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
 418            android:exported="false" >
-418-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+418-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
 419            <intent-filter>
-419-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+419-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
 420                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-420-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
-420-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+420-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+420-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
 421            </intent-filter>
 422        </receiver>
 423        <receiver
-423-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+423-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
 424            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-424-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+424-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
 425            android:directBootAware="false"
-425-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+425-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
 426            android:enabled="true"
-426-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+426-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
 427            android:exported="true"
-427-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+427-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
 428            android:permission="android.permission.DUMP" >
-428-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+428-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
 429            <intent-filter>
-429-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+429-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
 430                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-430-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
-430-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+430-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+430-->[androidx.work:work-runtime:2.7.0] C:\Users\omsjs\.gradle\caches\8.13\transforms\17ed7032f45e1b08ee0d7fe058039c1b\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
 431            </intent-filter>
 432        </receiver>
 433        <receiver
-433-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+433-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
 434            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-434-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+434-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
 435            android:directBootAware="false"
-435-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+435-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
 436            android:enabled="true"
-436-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+436-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
 437            android:exported="true"
-437-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+437-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
 438            android:permission="android.permission.DUMP" >
-438-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+438-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
 439            <intent-filter>
-439-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+439-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
 440                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-440-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-440-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+440-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+440-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
 441            </intent-filter>
 442            <intent-filter>
-442-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+442-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
 443                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-443-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-443-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+443-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+443-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
 444            </intent-filter>
 445            <intent-filter>
-445-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+445-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
 446                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-446-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-446-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+446-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+446-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
 447            </intent-filter>
 448            <intent-filter>
-448-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+448-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
 449                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-449-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-449-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+449-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+449-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\omsjs\.gradle\caches\8.13\transforms\cd020534a52b84efc1885d16e0b3b57d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
 450            </intent-filter>
 451        </receiver>
 452
 453        <service
-453-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\b558e689402ecd037e811a6ec99e7fbd\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+453-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\32bd523b0a4a0ecd890af4d0b3fef087\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 454            android:name="androidx.room.MultiInstanceInvalidationService"
-454-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\b558e689402ecd037e811a6ec99e7fbd\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+454-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\32bd523b0a4a0ecd890af4d0b3fef087\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 455            android:directBootAware="true"
-455-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\b558e689402ecd037e811a6ec99e7fbd\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+455-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\32bd523b0a4a0ecd890af4d0b3fef087\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 456            android:exported="false" />
-456-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\b558e689402ecd037e811a6ec99e7fbd\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+456-->[androidx.room:room-runtime:2.2.5] C:\Users\omsjs\.gradle\caches\8.13\transforms\32bd523b0a4a0ecd890af4d0b3fef087\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 457    </application>
 458
 459</manifest>

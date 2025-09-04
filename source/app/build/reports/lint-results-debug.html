@@ -179,7 +179,7 @@ document.getElementById(id).style.display = 'none';
     <div class="mdl-layout__header-row">
       <span class="mdl-layout-title">Lint Report: 2 warnings</span>
       <div class="mdl-layout-spacer"></div>
-      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Thu Sep 04 17:24:23 IST 2025 by AGP (8.12.2)</nav>
+      <nav class="mdl-navigation mdl-layout--large-screen-only">Check performed at Thu Sep 04 20:40:30 IST 2025 by AGP (8.13.0)</nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -212,7 +212,7 @@ document.getElementById(id).style.display = 'none';
 <a href="#UnusedResources">UnusedResources</a>: Unused resources</td></tr>
 <tr><td></td><td class="categoryColumn"><a href="#ExtraIssues">Included Additional Checks (36)</a>
 </td></tr>
-<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (40)</a>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (41)</a>
 </td></tr>
 </table>
 <br/>              </div>
@@ -231,14 +231,13 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../../gradle/dependencies.versions.toml">../../../gradle/dependencies.versions.toml</a>:6</span>: <span class="message">A newer version of com.android.tools.build:gradle than 8.12.2 is available: 8.13.0</span><br /><pre class="errorlines">
-<span class="lineno">  3 </span>androidbrowserhelper = "2.6.2"
-<span class="lineno">  4 </span>play-services-ads = "24.5.0"
-<span class="lineno">  5 </span>firebase-bom = "34.2.0"
-<span class="caretline"><span class="lineno">  6 </span>gradle = <span class="warning">"8.12.2"</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  7 </span>
-<span class="lineno">  8 </span>[libraries]
-<span class="lineno">  9 </span>androidbrowserhelper = { group = "com.google.androidbrowserhelper", name = "androidbrowserhelper", version.ref = "androidbrowserhelper" }
+<span class="location"><a href="../../../gradle/wrapper/gradle-wrapper.properties">../../../gradle/wrapper/gradle-wrapper.properties</a>:5</span>: <span class="message">A newer version of Gradle than 8.13 is available: 8.14.3</span><br /><pre class="errorlines">
+<span class="lineno"> 2 </span>distributionPath=wrapper/dists
+<span class="lineno"> 3 </span>zipStoreBase=GRADLE_USER_HOME
+<span class="lineno"> 4 </span>zipStorePath=wrapper/dists
+<span class="caretline"><span class="lineno"> 5 </span>distributionUrl=<span class="warning">https\://services.gradle.org/distributions/gradle-8.13-bin.zip</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 6 </span>networkTimeout=10000
+<span class="lineno"> 7 </span>validateDistributionUrl=true
 </pre>
 
 </div>
@@ -1219,6 +1218,15 @@ If your code is designed to run in the sandbox (and never outside the sandbox) t
 If your code is part of a library that can be executed both inside and outside the sandbox, surround the code with <code>if (!Process.isSdkSandbox()) { ... }</code> (or use your own field or method annotated with <code>@ChecksRestrictedEnvironment</code>) to avoid executing blocked calls when in the sandbox. Or, add the <code>@RestrictedForEnvironment</code> annotation to the containing method if the entire method should not be called when in the sandbox.<br/>
 <br/>
 This check is disabled by default, and should only be enabled in modules that may execute in the Privacy Sandbox.<br/><br/>
+<br/></div>
+</div>
+</div>
+<div class="issue">
+<div class="id">ReflectionAnnotation<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+<div class="explanation">
+When methods are using reflection to access APIs, they should declare what APIs they are accessing using the new <code>@UsesReflectionToAccessMethod</code> and <code>@UsesReflectionToAccessField</code> annotations. This makes it possible for the shrinker (R8) to correctly remove unused code and resources without accidentally also removing reflectively accessed code, which can lead to program crashes.<br/><br/>
 <br/></div>
 </div>
 </div>

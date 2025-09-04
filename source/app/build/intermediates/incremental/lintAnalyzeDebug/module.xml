@@ -4,7 +4,7 @@
     name=":app"
     type="APP"
     maven="Smart Camera:app:unspecified"
-    agpVersion="8.12.2"
+    agpVersion="8.13.0"
     buildFolder="build"
     bootClassPath="C:\Users\omsjs\AppData\Local\Android\Sdk\platforms\android-36\android.jar;C:\Users\omsjs\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
     javaSourceLevel="1.8"

@@ -1,6 +1,6 @@
-C:\Users\omsjs\Desktop\Smart Camera\source\gradle\dependencies.versions.toml:6: Warning: A newer version of com.android.tools.build:gradle than 8.12.2 is available: 8.13.0 [AndroidGradlePluginVersion]
-gradle = "8.12.2"
-         ~~~~~~~~
+C:\Users\omsjs\Desktop\Smart Camera\source\gradle\wrapper\gradle-wrapper.properties:5: Warning: A newer version of Gradle than 8.13 is available: 8.14.3 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Explanation for issues of type "AndroidGradlePluginVersion":
    This detector looks for usage of the Android Gradle Plugin where the
