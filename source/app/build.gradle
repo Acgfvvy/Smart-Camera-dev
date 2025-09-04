@@ -147,14 +147,24 @@ android {
 
         
     }
-    buildTypes {
-        release {
-            minifyEnabled = true
+    android {
+        buildTypes {
+            release {
+                minifyEnabled = true       // Shrinks unused code
+                shrinkResources = true     // Removes unused resources (images, layouts, etc.)
+                proguardFiles getDefaultProguardFile(
+                        'proguard-android-optimize.txt'
+                ), 'proguard-rules.pro'
+            }
+            debug {
+                minifyEnabled = false      // Keep debug readable
+                shrinkResources = false
+            }
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     lint {
         checkReleaseBuilds = false
