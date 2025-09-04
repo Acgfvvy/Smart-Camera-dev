@@ -219,6 +219,5 @@ dependencies {
     implementation(libs.androidbrowserhelper)
     implementation(libs.google.ump)
     implementation(libs.admob)
-    implementation(libs.ads.mobile.sdk)
 
 }
