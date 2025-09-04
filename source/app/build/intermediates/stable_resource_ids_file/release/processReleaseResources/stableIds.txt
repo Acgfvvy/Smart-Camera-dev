@@ -282,7 +282,6 @@ com.gmail.omsjsr.smartcamera:string/abc_action_bar_up_description = 0x7f0e0001
 com.gmail.omsjsr.smartcamera:style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small = 0x7f0f0036
 com.gmail.omsjsr.smartcamera:string/abc_action_bar_home_description = 0x7f0e0000
 com.gmail.omsjsr.smartcamera:raw/firebase_common_keep = 0x7f0d0000
-com.gmail.omsjsr.smartcamera:mipmap/ic_maskable = 0x7f0c0003
 com.gmail.omsjsr.smartcamera:layout/select_dialog_singlechoice_material = 0x7f0b002b
 com.gmail.omsjsr.smartcamera:style/Widget.AppCompat.Button.Small = 0x7f0f0124
 com.gmail.omsjsr.smartcamera:layout/select_dialog_item_material = 0x7f0b0029

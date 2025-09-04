@@ -66,6 +66,9 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
 attr activityChooserViewStyle
+attr adSize
+attr adSizes
+attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -328,6 +331,10 @@ attr windowNoTitle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool enableNotification
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -640,6 +647,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable admob_close_button_black_circle_white_cross
+drawable admob_close_button_white_circle_black_cross
+drawable admob_close_button_white_cross
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -692,6 +702,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable offline_dialog_background
+drawable offline_dialog_default_icon_42dp
 drawable splash
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -802,6 +814,7 @@ id ifRoom
 id image
 id info
 id italic
+id layout
 id light
 id line1
 id line3
@@ -817,6 +830,9 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offline_dialog_advertiser_name
+id offline_dialog_image
+id offline_dialog_text
 id on
 id parentPanel
 id progress_circular
@@ -931,6 +947,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout admob_empty_layout
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -942,6 +959,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout offline_ads_dialog
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -949,7 +967,6 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
-mipmap ic_maskable
 raw firebase_common_keep
 raw firebase_crashlytics_keep
 string abc_action_bar_home_description
@@ -979,6 +996,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string admob_app_id
+string admob_banner_id
 string androidx_startup
 string appName
 string app_name
@@ -1019,12 +1038,34 @@ string launchUrl
 string launcherName
 string manage_space_no_data_toast
 string manage_space_not_supported_toast
+string native_body
+string native_headline
+string native_media_view
 string no_provider_toast
+string notifications_permission_confirm
+string notifications_permission_decline
+string notifications_permission_title
+string offline_dialog_image_description
+string offline_dialog_text
+string offline_notification_title
+string offline_notification_title_with_advertiser
+string offline_opt_in_confirm
+string offline_opt_in_decline
+string offline_opt_in_message
+string offline_opt_in_title
 string orientation
 string providerAuthority
+string s1
+string s2
+string s3
+string s4
+string s5
+string s6
+string s7
 string search_menu_title
 string status_bar_notification_info_overflow
 string update_chrome_toast
+string watermark_label_prefix
 string webManifestUrl
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1292,6 +1333,7 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
+style Theme_IAPTheme
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -1382,6 +1424,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

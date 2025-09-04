@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.gmail.omsjsr.smartcamera.app-mergeDebugResources-33:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.gmail.omsjsr.smartcamera.app-mergeDebugResources-38:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\6655c6990f96ce29af7765cd1e11e535\\transformed\\browser-1.9.0-alpha04\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\ebe726b35872892c6d6d1dca19b76e4c\\transformed\\browser-1.9.0-alpha04\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\c9da00dd9020351b5a6a0baa36d84336\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\8aa12e111526113b4728224f1ce15398\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\c22ec320d639bcbed1adfac3eb808ba0\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\omsjs\\.gradle\\caches\\8.13\\transforms\\5f5e233349af4ca6dfa8e0d51e0bbcf8\\transformed\\core-1.13.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

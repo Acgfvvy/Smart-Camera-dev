@@ -19,10 +19,12 @@ package com.gmail.omsjsr.smartcamera;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
+import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
@@ -133,7 +135,8 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
             adView.loadAd(adRequestBuilder.build());
 
             // Launch TWA after a short delay
-            new Handler().postDelayed(this::launchTwaWrapper, 500);
+            new Handler(Looper.getMainLooper()).postDelayed(this::launchTwaWrapper, 500);
+
         });
     }
 

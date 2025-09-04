@@ -2,221 +2,35 @@
 <issues format="6" by="lint 8.12.2">
 
     <issue
-        id="UnusedResources"
+        id="AndroidGradlePluginVersion"
         severity="Warning"
-        message="The resource `R.bool.enableSiteSettingsShortcut` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
+        message="A newer version of com.android.tools.build:gradle than 8.12.2 is available: 8.13.0"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Android Gradle Plugin Version"
+        explanation="This detector looks for usage of the Android Gradle Plugin where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="gradle = &quot;8.12.2&quot;"
+        errorLine2="         ~~~~~~~~">
         <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
+            file="C:\Users\omsjs\Desktop\Smart Camera\source\gradle\dependencies.versions.toml"
+            line="6"
+            column="10"/>
     </issue>
 
     <issue
         id="UnusedResources"
         severity="Warning"
-        message="The resource `R.bool.enableSiteSettingsShortcut` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.bool.enableSiteSettingsShortcut` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.string.fullScopeUrl` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.string.fullScopeUrl` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.string.fullScopeUrl` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.color.shortcut_background` appears to be unused"
+        message="The resource `R.mipmap.ic_launcher_round` appears to be unused"
         category="Performance"
         priority="3"
         summary="Unused resources"
         explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
-        errorLine1="    &lt;color name=&quot;shortcut_background&quot;>#F5F5F5&lt;/color>"
-        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\values\colors.xml"
-            line="17"
-            column="12"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.drawable.shortcut_legacy_background` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,"
-        errorLine1="&lt;inset xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
         errorLine2="^">
         <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\drawable-anydpi\shortcut_legacy_background.xml"
-            line="16"
+            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml"
+            line="2"
             column="1"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
-        severity="Warning"
-        message="The resource `R.raw.web_app_manifest` appears to be unused"
-        category="Performance"
-        priority="3"
-        summary="Unused resources"
-        explanation="Unused resources make applications larger and slow down builds.&#xA;&#xA;&#xA;The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead.&#xA;&#xA;You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests =true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests =true.&#xA;,">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\raw\web_app_manifest.json"/>
-    </issue>
-
-    <issue
-        id="IconLauncherShape"
-        severity="Warning"
-        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
-        category="Usability:Icons"
-        priority="6"
-        summary="The launcher icon shape should use a distinct silhouette"
-        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-hdpi\ic_launcher.png"/>
-    </issue>
-
-    <issue
-        id="IconLauncherShape"
-        severity="Warning"
-        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
-        category="Usability:Icons"
-        priority="6"
-        summary="The launcher icon shape should use a distinct silhouette"
-        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-mdpi\ic_launcher.png"/>
-    </issue>
-
-    <issue
-        id="IconLauncherShape"
-        severity="Warning"
-        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
-        category="Usability:Icons"
-        priority="6"
-        summary="The launcher icon shape should use a distinct silhouette"
-        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xhdpi\ic_launcher.png"/>
-    </issue>
-
-    <issue
-        id="IconLauncherShape"
-        severity="Warning"
-        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
-        category="Usability:Icons"
-        priority="6"
-        summary="The launcher icon shape should use a distinct silhouette"
-        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xxhdpi\ic_launcher.png"/>
-    </issue>
-
-    <issue
-        id="IconLauncherShape"
-        severity="Warning"
-        message="Launcher icons should not fill every pixel of their square region; see the design guide for details"
-        category="Usability:Icons"
-        priority="6"
-        summary="The launcher icon shape should use a distinct silhouette"
-        explanation="According to the Android Design Guide (https://d.android.com/r/studio-ui/designer/material/iconography) your launcher icons should &quot;use a distinct silhouette&quot;, a &quot;three-dimensional, front view, with a slight perspective as if viewed from above, so that users perceive some depth.&quot;&#xA;&#xA;The unique silhouette implies that your launcher icon should not be a filled square.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png"/>
-    </issue>
-
-    <issue
-        id="IconDuplicates"
-        severity="Warning"
-        message="The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png"
-        category="Usability:Icons"
-        priority="3"
-        summary="Duplicated icons under different names"
-        explanation="If an icon is repeated under different names, you can consolidate and just use one of the icons and delete the others to make your application smaller. However, duplicated icons usually are not intentional and can sometimes point to icons that were accidentally overwritten or accidentally not updated.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-hdpi\ic_launcher.png"/>
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\drawable-xxhdpi\ic_notification_icon.png"/>
-    </issue>
-
-    <issue
-        id="IconDuplicates"
-        severity="Warning"
-        message="The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png"
-        category="Usability:Icons"
-        priority="3"
-        summary="Duplicated icons under different names"
-        explanation="If an icon is repeated under different names, you can consolidate and just use one of the icons and delete the others to make your application smaller. However, duplicated icons usually are not intentional and can sometimes point to icons that were accidentally overwritten or accidentally not updated.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-mdpi\ic_launcher.png"/>
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\drawable-xhdpi\ic_notification_icon.png"/>
-    </issue>
-
-    <issue
-        id="IconDuplicates"
-        severity="Warning"
-        message="The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png"
-        category="Usability:Icons"
-        priority="3"
-        summary="Duplicated icons under different names"
-        explanation="If an icon is repeated under different names, you can consolidate and just use one of the icons and delete the others to make your application smaller. However, duplicated icons usually are not intentional and can sometimes point to icons that were accidentally overwritten or accidentally not updated.">
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xhdpi\ic_launcher.png"/>
-        <location
-            file="C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\drawable-xxxhdpi\ic_notification_icon.png"/>
     </issue>
 
 </issues>

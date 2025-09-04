@@ -1,38 +1,43 @@
-com.gmail.omsjsr.smartcamera.app-lifecycle-livedata-2.6.2-0 C:\Users\omsjs\.gradle\caches\8.13\transforms\06637c5489cd64f53cb29a0ad02b4fbe\transformed\lifecycle-livedata-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-lifecycle-viewmodel-2.6.2-1 C:\Users\omsjs\.gradle\caches\8.13\transforms\193cec1be6b6bd7d500c8e1b25d5b169\transformed\lifecycle-viewmodel-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-emoji2-views-helper-1.3.0-2 C:\Users\omsjs\.gradle\caches\8.13\transforms\1c8b9f83b0909099b33c1fbb15985b37\transformed\emoji2-views-helper-1.3.0\res
-com.gmail.omsjsr.smartcamera.app-core-ktx-1.13.0-3 C:\Users\omsjs\.gradle\caches\8.13\transforms\1da6fc31026968a0777449bdb72ee598\transformed\core-ktx-1.13.0\res
-com.gmail.omsjsr.smartcamera.app-play-services-base-18.5.0-4 C:\Users\omsjs\.gradle\caches\8.13\transforms\268e9a7d35bab9d9b5f25352a6590ffa\transformed\play-services-base-18.5.0\res
-com.gmail.omsjsr.smartcamera.app-startup-runtime-1.1.1-5 C:\Users\omsjs\.gradle\caches\8.13\transforms\2eee4f553ca45639eb5c3107d3497151\transformed\startup-runtime-1.1.1\res
-com.gmail.omsjsr.smartcamera.app-ads-adservices-java-1.1.0-beta11-6 C:\Users\omsjs\.gradle\caches\8.13\transforms\452dff12ab2a0f16a033ec5be6777b78\transformed\ads-adservices-java-1.1.0-beta11\res
-com.gmail.omsjsr.smartcamera.app-datastore-core-release-7 C:\Users\omsjs\.gradle\caches\8.13\transforms\482677814411fc92a9a17751eb10855d\transformed\datastore-core-release\res
-com.gmail.omsjsr.smartcamera.app-firebase-crashlytics-20.0.1-8 C:\Users\omsjs\.gradle\caches\8.13\transforms\4bf55c34a040a13acbf2c2c070a37321\transformed\firebase-crashlytics-20.0.1\res
-com.gmail.omsjsr.smartcamera.app-lifecycle-viewmodel-savedstate-2.6.2-9 C:\Users\omsjs\.gradle\caches\8.13\transforms\65be14e369aba622066b77ca91d30a0d\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-browser-1.9.0-alpha04-10 C:\Users\omsjs\.gradle\caches\8.13\transforms\6655c6990f96ce29af7765cd1e11e535\transformed\browser-1.9.0-alpha04\res
-com.gmail.omsjsr.smartcamera.app-emoji2-1.3.0-11 C:\Users\omsjs\.gradle\caches\8.13\transforms\72aab2328987922220e7c221b2e5847b\transformed\emoji2-1.3.0\res
-com.gmail.omsjsr.smartcamera.app-firebase-common-22.0.0-12 C:\Users\omsjs\.gradle\caches\8.13\transforms\7d743c2cd00d7d52f5fef0c1576633b3\transformed\firebase-common-22.0.0\res
-com.gmail.omsjsr.smartcamera.app-savedstate-1.2.1-13 C:\Users\omsjs\.gradle\caches\8.13\transforms\7e60bbd55da82611f99bdb98ac8eca4b\transformed\savedstate-1.2.1\res
-com.gmail.omsjsr.smartcamera.app-datastore-preferences-core-release-14 C:\Users\omsjs\.gradle\caches\8.13\transforms\822160487fe6e90ecf635dca21b76ad9\transformed\datastore-preferences-core-release\res
-com.gmail.omsjsr.smartcamera.app-lifecycle-runtime-2.6.2-15 C:\Users\omsjs\.gradle\caches\8.13\transforms\82ee3644dd3d89d9e991e90305eb2717\transformed\lifecycle-runtime-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-lifecycle-process-2.6.2-16 C:\Users\omsjs\.gradle\caches\8.13\transforms\85a807329b9550783be1eabbc09582e8\transformed\lifecycle-process-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-lifecycle-livedata-core-2.6.2-17 C:\Users\omsjs\.gradle\caches\8.13\transforms\88ac1622cd7871c34615130c25f1a4b7\transformed\lifecycle-livedata-core-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-fragment-1.5.4-18 C:\Users\omsjs\.gradle\caches\8.13\transforms\91d30b65ef2edabddb44cca83f915b7b\transformed\fragment-1.5.4\res
-com.gmail.omsjsr.smartcamera.app-profileinstaller-1.3.1-19 C:\Users\omsjs\.gradle\caches\8.13\transforms\94290dae55379b29b30603c006c89cb3\transformed\profileinstaller-1.3.1\res
-com.gmail.omsjsr.smartcamera.app-activity-1.9.0-20 C:\Users\omsjs\.gradle\caches\8.13\transforms\a522370a4ade5a59cacbbd02539fd4ef\transformed\activity-1.9.0\res
-com.gmail.omsjsr.smartcamera.app-datastore-preferences-release-21 C:\Users\omsjs\.gradle\caches\8.13\transforms\ab617e4eb1d87d0fccd9c60206e0d58b\transformed\datastore-preferences-release\res
-com.gmail.omsjsr.smartcamera.app-appcompat-resources-1.7.0-22 C:\Users\omsjs\.gradle\caches\8.13\transforms\b21a73348ec32b104e42926e252d80b6\transformed\appcompat-resources-1.7.0\res
-com.gmail.omsjsr.smartcamera.app-core-runtime-2.2.0-23 C:\Users\omsjs\.gradle\caches\8.13\transforms\b5f97db3ae99c0e1b884314363e8925b\transformed\core-runtime-2.2.0\res
-com.gmail.omsjsr.smartcamera.app-core-1.13.0-24 C:\Users\omsjs\.gradle\caches\8.13\transforms\c22ec320d639bcbed1adfac3eb808ba0\transformed\core-1.13.0\res
-com.gmail.omsjsr.smartcamera.app-appcompat-1.7.0-25 C:\Users\omsjs\.gradle\caches\8.13\transforms\c9da00dd9020351b5a6a0baa36d84336\transformed\appcompat-1.7.0\res
-com.gmail.omsjsr.smartcamera.app-ads-adservices-1.1.0-beta11-26 C:\Users\omsjs\.gradle\caches\8.13\transforms\cdb1ff50b76eb384e01907673e573388\transformed\ads-adservices-1.1.0-beta11\res
-com.gmail.omsjsr.smartcamera.app-datastore-release-27 C:\Users\omsjs\.gradle\caches\8.13\transforms\da4e60bb1145c7eb46bca1864d8a42ef\transformed\datastore-release\res
-com.gmail.omsjsr.smartcamera.app-annotation-experimental-1.4.1-28 C:\Users\omsjs\.gradle\caches\8.13\transforms\df5aa5275540b38289df87ebd9df9cbf\transformed\annotation-experimental-1.4.1\res
-com.gmail.omsjsr.smartcamera.app-play-services-basement-18.5.0-29 C:\Users\omsjs\.gradle\caches\8.13\transforms\e958cbdebb5a76c20c757d5516bcde1a\transformed\play-services-basement-18.5.0\res
-com.gmail.omsjsr.smartcamera.app-androidbrowserhelper-2.6.2-30 C:\Users\omsjs\.gradle\caches\8.13\transforms\fb01e12eddf3aa1f276874218bbab7e4\transformed\androidbrowserhelper-2.6.2\res
-com.gmail.omsjsr.smartcamera.app-pngs-31 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\generated\res\pngs\debug
-com.gmail.omsjsr.smartcamera.app-resValues-32 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\generated\res\resValues\debug
-com.gmail.omsjsr.smartcamera.app-packageDebugResources-33 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.gmail.omsjsr.smartcamera.app-packageDebugResources-34 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.gmail.omsjsr.smartcamera.app-debug-35 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.gmail.omsjsr.smartcamera.app-debug-36 C:\Users\omsjs\Desktop\Smart Camera\source\app\src\debug\res
-com.gmail.omsjsr.smartcamera.app-main-37 C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res
+com.gmail.omsjsr.smartcamera.app-core-ktx-1.13.0-0 C:\Users\omsjs\.gradle\caches\8.13\transforms\03aeff67ee095d1a766f77f039fbb668\transformed\core-ktx-1.13.0\res
+com.gmail.omsjsr.smartcamera.app-firebase-crashlytics-20.0.1-1 C:\Users\omsjs\.gradle\caches\8.13\transforms\08c411b43ba3b6a169816fe28efa0ef8\transformed\firebase-crashlytics-20.0.1\res
+com.gmail.omsjsr.smartcamera.app-ads-adservices-1.1.0-beta11-2 C:\Users\omsjs\.gradle\caches\8.13\transforms\0ba44e571e9a5212a23b245d567bf9dd\transformed\ads-adservices-1.1.0-beta11\res
+com.gmail.omsjsr.smartcamera.app-play-services-ads-24.5.0-3 C:\Users\omsjs\.gradle\caches\8.13\transforms\1397d2b610092e4867f4937d57f0113f\transformed\play-services-ads-24.5.0\res
+com.gmail.omsjsr.smartcamera.app-datastore-preferences-core-release-4 C:\Users\omsjs\.gradle\caches\8.13\transforms\1a0d9b753cb9bfad3ef9df1906ad3d32\transformed\datastore-preferences-core-release\res
+com.gmail.omsjsr.smartcamera.app-webkit-1.11.0-alpha02-5 C:\Users\omsjs\.gradle\caches\8.13\transforms\29e8fe524cddca8a54aa8888f5a76f60\transformed\webkit-1.11.0-alpha02\res
+com.gmail.omsjsr.smartcamera.app-datastore-core-release-6 C:\Users\omsjs\.gradle\caches\8.13\transforms\2c284e3a4b6845621aa1796e6df75fb9\transformed\datastore-core-release\res
+com.gmail.omsjsr.smartcamera.app-emoji2-views-helper-1.3.0-7 C:\Users\omsjs\.gradle\caches\8.13\transforms\2e5e6d000280bfe3ee11513d4e912542\transformed\emoji2-views-helper-1.3.0\res
+com.gmail.omsjsr.smartcamera.app-core-runtime-2.2.0-8 C:\Users\omsjs\.gradle\caches\8.13\transforms\2ecec6c08aa0ff4a2749b3b02fb418f9\transformed\core-runtime-2.2.0\res
+com.gmail.omsjsr.smartcamera.app-androidbrowserhelper-2.6.2-9 C:\Users\omsjs\.gradle\caches\8.13\transforms\3009547e69e73a1b7f746b38911de2a1\transformed\androidbrowserhelper-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-activity-1.9.0-10 C:\Users\omsjs\.gradle\caches\8.13\transforms\404549e888be10a687492bc7d2054c2a\transformed\activity-1.9.0\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-livedata-2.6.2-11 C:\Users\omsjs\.gradle\caches\8.13\transforms\4aa1eaf713705ce9158d5f9a6ce91050\transformed\lifecycle-livedata-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-ads-adservices-java-1.1.0-beta11-12 C:\Users\omsjs\.gradle\caches\8.13\transforms\5880e72dbdf64ae4cd05694c2b623cca\transformed\ads-adservices-java-1.1.0-beta11\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-viewmodel-savedstate-2.6.2-13 C:\Users\omsjs\.gradle\caches\8.13\transforms\5c74db64ce74946b6ea34365699b0ae3\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-core-1.13.0-14 C:\Users\omsjs\.gradle\caches\8.13\transforms\5f5e233349af4ca6dfa8e0d51e0bbcf8\transformed\core-1.13.0\res
+com.gmail.omsjsr.smartcamera.app-play-services-base-18.5.0-15 C:\Users\omsjs\.gradle\caches\8.13\transforms\66cf32e1adfd79712fa2a154712c3545\transformed\play-services-base-18.5.0\res
+com.gmail.omsjsr.smartcamera.app-startup-runtime-1.1.1-16 C:\Users\omsjs\.gradle\caches\8.13\transforms\6c0a69300ac9e534da9fcb3b3c557235\transformed\startup-runtime-1.1.1\res
+com.gmail.omsjsr.smartcamera.app-firebase-common-22.0.0-17 C:\Users\omsjs\.gradle\caches\8.13\transforms\6ccad617546c720faa0a6ee9eff0daf2\transformed\firebase-common-22.0.0\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-viewmodel-2.6.2-18 C:\Users\omsjs\.gradle\caches\8.13\transforms\6eb5abb6004fafe24a038566c09a916e\transformed\lifecycle-viewmodel-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-runtime-2.6.2-19 C:\Users\omsjs\.gradle\caches\8.13\transforms\7142cfc3b123af667d7cf3895b8b22a5\transformed\lifecycle-runtime-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-datastore-preferences-release-20 C:\Users\omsjs\.gradle\caches\8.13\transforms\82a166f7a991feeda7645463985b4422\transformed\datastore-preferences-release\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-service-2.6.2-21 C:\Users\omsjs\.gradle\caches\8.13\transforms\852b022a2d2f7f4e28b21d42eb7714d6\transformed\lifecycle-service-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-appcompat-1.7.0-22 C:\Users\omsjs\.gradle\caches\8.13\transforms\8aa12e111526113b4728224f1ce15398\transformed\appcompat-1.7.0\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-process-2.6.2-23 C:\Users\omsjs\.gradle\caches\8.13\transforms\8cec49736eba1fd370f2cff5f337b14f\transformed\lifecycle-process-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-work-runtime-2.7.0-24 C:\Users\omsjs\.gradle\caches\8.13\transforms\b434caf3aa184071fd7571158c4e1671\transformed\work-runtime-2.7.0\res
+com.gmail.omsjsr.smartcamera.app-savedstate-1.2.1-25 C:\Users\omsjs\.gradle\caches\8.13\transforms\c3a1cf50ad2a2f536cdc6e80f969ea1d\transformed\savedstate-1.2.1\res
+com.gmail.omsjsr.smartcamera.app-play-services-ads-api-24.5.0-26 C:\Users\omsjs\.gradle\caches\8.13\transforms\caca0ae9b36fb064a91600fdb622f7b7\transformed\play-services-ads-api-24.5.0\res
+com.gmail.omsjsr.smartcamera.app-datastore-release-27 C:\Users\omsjs\.gradle\caches\8.13\transforms\cc8d1139355c6bcd9d39dae0a062cdc0\transformed\datastore-release\res
+com.gmail.omsjsr.smartcamera.app-emoji2-1.3.0-28 C:\Users\omsjs\.gradle\caches\8.13\transforms\dc2c988674a75f6225325322037d35df\transformed\emoji2-1.3.0\res
+com.gmail.omsjsr.smartcamera.app-profileinstaller-1.3.1-29 C:\Users\omsjs\.gradle\caches\8.13\transforms\dde94fad79574cc8c8a436550a847f98\transformed\profileinstaller-1.3.1\res
+com.gmail.omsjsr.smartcamera.app-appcompat-resources-1.7.0-30 C:\Users\omsjs\.gradle\caches\8.13\transforms\df5fce2c05eabdb18d4be4fa134f0e70\transformed\appcompat-resources-1.7.0\res
+com.gmail.omsjsr.smartcamera.app-lifecycle-livedata-core-2.6.2-31 C:\Users\omsjs\.gradle\caches\8.13\transforms\e165e7f3ade14cc8ad2b8e3d8044f4bd\transformed\lifecycle-livedata-core-2.6.2\res
+com.gmail.omsjsr.smartcamera.app-browser-1.9.0-alpha04-32 C:\Users\omsjs\.gradle\caches\8.13\transforms\ebe726b35872892c6d6d1dca19b76e4c\transformed\browser-1.9.0-alpha04\res
+com.gmail.omsjsr.smartcamera.app-fragment-1.5.4-33 C:\Users\omsjs\.gradle\caches\8.13\transforms\f149d638033e7434454eaa0b404c5dba\transformed\fragment-1.5.4\res
+com.gmail.omsjsr.smartcamera.app-annotation-experimental-1.4.1-34 C:\Users\omsjs\.gradle\caches\8.13\transforms\f1705507aa1b4d52a4f89668ff0844b0\transformed\annotation-experimental-1.4.1\res
+com.gmail.omsjsr.smartcamera.app-play-services-basement-18.5.0-35 C:\Users\omsjs\.gradle\caches\8.13\transforms\fb47e55cd2352c96ec39c0b92bb80fb6\transformed\play-services-basement-18.5.0\res
+com.gmail.omsjsr.smartcamera.app-pngs-36 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\generated\res\pngs\debug
+com.gmail.omsjsr.smartcamera.app-resValues-37 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\generated\res\resValues\debug
+com.gmail.omsjsr.smartcamera.app-packageDebugResources-38 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.gmail.omsjsr.smartcamera.app-packageDebugResources-39 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.gmail.omsjsr.smartcamera.app-debug-40 C:\Users\omsjs\Desktop\Smart Camera\source\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.gmail.omsjsr.smartcamera.app-debug-41 C:\Users\omsjs\Desktop\Smart Camera\source\app\src\debug\res
+com.gmail.omsjsr.smartcamera.app-main-42 C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res

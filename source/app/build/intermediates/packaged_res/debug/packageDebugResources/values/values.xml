@@ -9,6 +9,8 @@
     <color name="navigationDividerColor">#FFFFFF</color>
     <color name="navigationDividerColorDark">#FFFFFF</color>
     <integer name="splashScreenFadeOutDuration">300</integer>
+    <string name="admob_app_id">ca-app-pub-9318113506920623~2550854133</string>
+    <string name="admob_banner_id">ca-app-pub-9318113506920623/9022904858</string>
     <string name="appName" translatable="false">Smart Camera</string>
     <string name="assetStatements">
     [{

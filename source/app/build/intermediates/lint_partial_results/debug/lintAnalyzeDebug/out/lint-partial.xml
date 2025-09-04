@@ -8,31 +8,17 @@
             </map>
     </map>
     <map id="UnusedResources">
-        <location id="R.bool.enableSiteSettingsShortcut"
-            file="${:app*projectDir}/build.gradle"/>
-        <location id="R.color.shortcut_background"
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
-            line="17"
-            column="12"
-            startOffset="654"
-            endLine="17"
-            endColumn="38"
-            endOffset="680"/>
-        <location id="R.drawable.shortcut_legacy_background"
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable-anydpi/shortcut_legacy_background.xml"
-            line="16"
+        <location id="R.mipmap.ic_launcher_round"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
             column="1"
-            startOffset="631"
-            endLine="25"
-            endColumn="9"
-            endOffset="1019"/>
-        <location id="R.raw.web_app_manifest"
-            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/raw/web_app_manifest.json"/>
-        <location id="R.string.fullScopeUrl"
-            file="${:app*projectDir}/build.gradle"/>
+            startOffset="40"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
         <entry
             name="model"
-            string="bool[enableNotification(U),enableSiteSettingsShortcut(D)],color[colorPrimary(U),colorPrimaryDark(U),navigationColor(U),navigationColorDark(U),navigationDividerColor(U),navigationDividerColorDark(U),backgroundColor(U),shortcut_background(D)],drawable[splash(U),ic_notification_icon(U),shortcut_legacy_background(D),shortcut_legacy_background_1(E)],integer[splashScreenFadeOutDuration(U)],mipmap[ic_launcher(U),ic_maskable(U)],raw[web_app_manifest(D)],string[appName(U),assetStatements(U),webManifestUrl(U),generatorApp(U),launcherName(U),launchUrl(U),providerAuthority(U),fallbackType(U),orientation(U),hostName(U),fullScopeUrl(D)],xml[shortcuts(U),filepaths(U)];c^d^9,f^10;;;"/>
+            string="bool[enableNotification(U)],color[colorPrimary(U),colorPrimaryDark(U),navigationColor(U),navigationColorDark(U),navigationDividerColor(U),navigationDividerColorDark(U),backgroundColor(U)],drawable[splash(U),ic_notification_icon(U),ic_launcher_background(U),ic_stat_name(U)],integer[splashScreenFadeOutDuration(U)],mipmap[ic_launcher(U),ic_launcher_foreground(U),ic_launcher_round(D)],string[appName(U),admob_app_id(U),assetStatements(U),webManifestUrl(U),generatorApp(U),launcherName(U),launchUrl(U),providerAuthority(U),fallbackType(U),orientation(U),hostName(U),admob_banner_id(U)],xml[shortcuts(U),filepaths(U)];d^a^e^b,f^a^e;;;"/>
     </map>
 
 </incidents>

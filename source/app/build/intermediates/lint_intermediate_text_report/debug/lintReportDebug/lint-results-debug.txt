@@ -1,16 +1,17 @@
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.bool.enableSiteSettingsShortcut appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.bool.enableSiteSettingsShortcut appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.bool.enableSiteSettingsShortcut appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.string.fullScopeUrl appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.string.fullScopeUrl appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\build.gradle: Warning: The resource R.string.fullScopeUrl appears to be unused [UnusedResources]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\values\colors.xml:17: Warning: The resource R.color.shortcut_background appears to be unused [UnusedResources]
-    <color name="shortcut_background">#F5F5F5</color>
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\drawable-anydpi\shortcut_legacy_background.xml:16: Warning: The resource R.drawable.shortcut_legacy_background appears to be unused [UnusedResources]
-<inset xmlns:android="http://schemas.android.com/apk/res/android"
+C:\Users\omsjs\Desktop\Smart Camera\source\gradle\dependencies.versions.toml:6: Warning: A newer version of com.android.tools.build:gradle than 8.12.2 is available: 8.13.0 [AndroidGradlePluginVersion]
+gradle = "8.12.2"
+         ~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
 ^
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\raw\web_app_manifest.json: Warning: The resource R.raw.web_app_manifest appears to be unused [UnusedResources]
 
    Explanation for issues of type "UnusedResources":
    Unused resources make applications larger and slow down builds.
@@ -45,31 +46,4 @@ C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\raw\web_app_manifest
    </lint>
    ```
 
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-hdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-mdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xxhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
-
-   Explanation for issues of type "IconLauncherShape":
-   According to the Android Design Guide
-   (https://d.android.com/r/studio-ui/designer/material/iconography) your
-   launcher icons should "use a distinct silhouette", a "three-dimensional,
-   front view, with a slight perspective as if viewed from above, so that
-   users perceive some depth."
-
-   The unique silhouette implies that your launcher icon should not be a
-   filled square.
-
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-hdpi\ic_launcher.png: Warning: The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png [IconDuplicates]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-mdpi\ic_launcher.png: Warning: The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png [IconDuplicates]
-C:\Users\omsjs\Desktop\Smart Camera\source\app\src\main\res\mipmap-xhdpi\ic_launcher.png: Warning: The following unrelated icon files have identical contents: ic_notification_icon.png, ic_launcher.png [IconDuplicates]
-
-   Explanation for issues of type "IconDuplicates":
-   If an icon is repeated under different names, you can consolidate and just
-   use one of the icons and delete the others to make your application
-   smaller. However, duplicated icons usually are not intentional and can
-   sometimes point to icons that were accidentally overwritten or accidentally
-   not updated.
-
-0 errors, 17 warnings
+0 errors, 2 warnings

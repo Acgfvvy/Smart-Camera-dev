@@ -7,7 +7,7 @@
     mergedManifest="build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml"
     proguardFiles="build\intermediates\default_proguard_files\global\proguard-android.txt-8.12.2"
     partialResultsDir="build\intermediates\lint_partial_results\debug\lintAnalyzeDebug\out"
-    desugaredMethodsFiles="C:\Users\omsjs\.gradle\caches\8.13\transforms\a8677d50378bfd7ec1221fbbfcba2601\transformed\D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="C:\Users\omsjs\.gradle\caches\8.13\transforms\425869e9c82ff8a600ba2c7367b78a70\transformed\D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>
@@ -43,17 +43,9 @@
         name="enableNotification"
         value="false" />
     <resValue
-        type="bool"
-        name="enableSiteSettingsShortcut"
-        value="false" />
-    <resValue
         type="string"
         name="fallbackType"
         value="webview" />
-    <resValue
-        type="string"
-        name="fullScopeUrl"
-        value="https://smart-camera-3-15-2013.web.app/" />
     <resValue
         type="string"
         name="generatorApp"
@@ -109,6 +101,6 @@
       applicationId="com.gmail.omsjsr.smartcamera"
       generatedSourceFolders="build\generated\ap_generated_sources\debug\out"
       generatedResourceFolders="build\generated\res\resValues\debug"
-      desugaredMethodsFiles="C:\Users\omsjs\.gradle\caches\8.13\transforms\a8677d50378bfd7ec1221fbbfcba2601\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\omsjs\.gradle\caches\8.13\transforms\425869e9c82ff8a600ba2c7367b78a70\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>
 </variant>

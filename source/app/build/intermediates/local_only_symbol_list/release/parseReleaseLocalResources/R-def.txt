@@ -16,7 +16,6 @@ integer splashScreenFadeOutDuration
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
-mipmap ic_maskable
 string admob_app_id
 string admob_banner_id
 string appName

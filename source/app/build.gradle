@@ -167,6 +167,10 @@ android {
     }
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += ["-Xlint:deprecation"]
+}
+
 tasks.register('generateShorcutsFile') {
     assert twaManifest.shortcuts.size() < 5, "You can have at most 4 shortcuts."
     twaManifest.shortcuts.eachWithIndex { s, i ->
@@ -210,9 +214,9 @@ repositories {
 
 dependencies {
     implementation platform(libs.firebase.bom)
-    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation('com.google.firebase:firebase-crashlytics')
     implementation("com.google.firebase:firebase-crashlytics-ndk")
-    implementation 'com.google.firebase:firebase-analytics'
+    implementation('com.google.firebase:firebase-analytics')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation project(':app')

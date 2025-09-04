@@ -42,17 +42,9 @@
         name="enableNotification"
         value="false" />
     <resValue
-        type="bool"
-        name="enableSiteSettingsShortcut"
-        value="false" />
-    <resValue
         type="string"
         name="fallbackType"
         value="webview" />
-    <resValue
-        type="string"
-        name="fullScopeUrl"
-        value="https://smart-camera-3-15-2013.web.app/" />
     <resValue
         type="string"
         name="generatorApp"

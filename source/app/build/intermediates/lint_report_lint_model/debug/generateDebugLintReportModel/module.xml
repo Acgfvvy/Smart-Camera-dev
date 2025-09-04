@@ -3,7 +3,7 @@
     dir="C:\Users\omsjs\Desktop\Smart Camera\source\app"
     name=":app"
     type="APP"
-    maven="source:app:unspecified"
+    maven="Smart Camera:app:unspecified"
     agpVersion="8.12.2"
     buildFolder="build"
     bootClassPath="C:\Users\omsjs\AppData\Local\Android\Sdk\platforms\android-36\android.jar;C:\Users\omsjs\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
