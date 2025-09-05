@@ -14,6 +14,7 @@
 -keep class com.google.android.gms.ads.AdSize { *; }
 -keep class com.google.android.gms.ads.MobileAds { *; }
 -keep class com.google.android.gms.ads.initialization.** { *; }
+-keep interface com.google.android.gms.ads.** { *; }
 
 -keep class com.google.ads.mediation.admob.AdMobAdapter { *; }
 -keep class com.google.android.ump.** { *; }
