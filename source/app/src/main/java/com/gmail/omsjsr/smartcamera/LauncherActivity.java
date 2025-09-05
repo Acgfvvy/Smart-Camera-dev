@@ -24,16 +24,23 @@ import android.util.Log;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
+import androidx.annotation.NonNull;
+
 import com.google.ads.mediation.admob.AdMobAdapter;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.RequestConfiguration;
 import com.google.android.ump.ConsentInformation;
 import com.google.android.ump.ConsentRequestParameters;
 import com.google.android.ump.UserMessagingPlatform;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.analytics.FirebaseAnalytics;
+
+import java.util.Collections;
+import java.util.List;
 
 public class LauncherActivity extends com.google.androidbrowserhelper.trusted.LauncherActivity {
 
@@ -89,8 +96,9 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
                     if (consentInformation.getConsentStatus()
                             == ConsentInformation.ConsentStatus.REQUIRED) {
                         consentForm.show(this, formError -> {
-                            assert formError != null;
-                            Log.e("UMP", "Consent form error: " + formError.getMessage());
+                            if (formError != null) {
+                                Log.e("UMP", "Consent form error: " + formError.getMessage());
+                            }
                             initAfterConsent(rootLayout, false);
                         });
                     } else {
@@ -108,6 +116,13 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
         // Initialize Firebase after consent
         FirebaseApp.initializeApp(this);
         FirebaseAnalytics.getInstance(this).setAnalyticsCollectionEnabled(consentGiven);
+
+        // ✅ Set your device as test device BEFORE initializing MobileAds
+        List<String> testDeviceIds = Collections.singletonList("4A71A01E21FF673E3BA3E28391D474B1"); // from logcat
+        RequestConfiguration configuration = new RequestConfiguration.Builder()
+                .setTestDeviceIds(testDeviceIds)
+                .build();
+        MobileAds.setRequestConfiguration(configuration);
 
         // Initialize AdMob
         MobileAds.initialize(this, initializationStatus -> {
@@ -132,6 +147,30 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
                 adRequestBuilder.addNetworkExtrasBundle(AdMobAdapter.class, extras);
             }
 
+            // ✅ Debug listener for ads
+            adView.setAdListener(new AdListener() {
+                @Override
+                public void onAdLoaded() {
+                    Log.d("AdMob", "Ad loaded successfully ✅");
+                }
+
+                @Override
+                public void onAdFailedToLoad(@NonNull com.google.android.gms.ads.LoadAdError adError) {
+                    Log.e("AdMob", "Ad failed to load ❌: " + adError.getMessage());
+                }
+
+                @Override
+                public void onAdOpened() {
+                    Log.d("AdMob", "Ad opened");
+                }
+
+                @Override
+                public void onAdClosed() {
+                    Log.d("AdMob", "Ad closed");
+                }
+            });
+
+            // Load the ad
             adView.loadAd(adRequestBuilder.build());
 
             // Launch TWA after a short delay
