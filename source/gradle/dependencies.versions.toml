@@ -3,11 +3,19 @@ ump = "3.2.0"
 androidbrowserhelper = "2.6.2"
 play-services-ads = "24.5.0"
 firebase-bom = "34.2.0"
+firebase-analytics = "23.0.0"
 gradle = "8.13.0"
+firebase-crashlytics = "20.0.1"
 
 [libraries]
 androidbrowserhelper = { group = "com.google.androidbrowserhelper", name = "androidbrowserhelper", version.ref = "androidbrowserhelper" }
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
 admob = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "play-services-ads" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase-analytics" }
 google-ump = { group = "com.google.android.ump", name = "user-messaging-platform", version.ref = "ump" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase-crashlytics" }
+
+
+
+

@@ -18,6 +18,8 @@ import groovy.xml.MarkupBuilder
 
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
 }
 
 def twaManifest = [
@@ -218,15 +220,13 @@ tasks.register('generateShorcutsFile') {
 
 preBuild.dependsOn(generateShorcutsFile)
 
-repositories {
-    
-}
-
 dependencies {
     implementation platform(libs.firebase.bom)
+    implementation platform(libs.firebase.analytics)
+    implementation platform(libs.firebase.crashlytics)
+    implementation('com.google.firebase:firebase-analytics')
     implementation('com.google.firebase:firebase-crashlytics')
     implementation("com.google.firebase:firebase-crashlytics-ndk")
-    implementation('com.google.firebase:firebase-analytics')
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     androidTestImplementation project(':app')

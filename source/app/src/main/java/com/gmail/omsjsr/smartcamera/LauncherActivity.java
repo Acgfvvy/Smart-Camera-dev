@@ -118,7 +118,7 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
         FirebaseAnalytics.getInstance(this).setAnalyticsCollectionEnabled(consentGiven);
 
         // ✅ Set your device as test device BEFORE initializing MobileAds
-        List<String> testDeviceIds = Collections.singletonList("4A71A01E21FF673E3BA3E28391D474B1"); // from logcat
+        List<String> testDeviceIds = Collections.singletonList("B3EEABB8EE11C2BE770B684D95219ECB"); // from logcat
         RequestConfiguration configuration = new RequestConfiguration.Builder()
                 .setTestDeviceIds(testDeviceIds)
                 .build();
