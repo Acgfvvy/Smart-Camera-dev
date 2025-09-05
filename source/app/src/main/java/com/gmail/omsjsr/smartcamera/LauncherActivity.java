@@ -2,16 +2,12 @@
  * Copyright 2020 Google Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
  */
 
 package com.gmail.omsjsr.smartcamera;
@@ -45,24 +41,23 @@ import java.util.List;
 public class LauncherActivity extends com.google.androidbrowserhelper.trusted.LauncherActivity {
 
     private ConsentInformation consentInformation;
-    private AdView adView; // keep as field to destroy in onDestroy
+    private AdView adView; // Keep as field to destroy in onDestroy
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Fix orientation
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
 
-        // Root layout: FrameLayout to overlay banner on PWA
+        // Root layout to overlay banner on TWA
         FrameLayout rootLayout = new FrameLayout(this);
         rootLayout.setLayoutParams(new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.MATCH_PARENT,
                 FrameLayout.LayoutParams.MATCH_PARENT
         ));
+        rootLayout.setFitsSystemWindows(false); // allow ad to overlay
         setContentView(rootLayout);
 
-        // Start UMP consent flow
         requestConsent(rootLayout);
     }
 
@@ -113,24 +108,21 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
     }
 
     private void initAfterConsent(FrameLayout rootLayout, boolean consentGiven) {
-        // Initialize Firebase after consent
         FirebaseApp.initializeApp(this);
         FirebaseAnalytics.getInstance(this).setAnalyticsCollectionEnabled(consentGiven);
 
-        // ✅ Set your device as test device BEFORE initializing MobileAds
-        List<String> testDeviceIds = Collections.singletonList("B3EEABB8EE11C2BE770B684D95219ECB"); // from logcat
+        List<String> testDeviceIds = Collections.singletonList("B3EEABB8EE11C2BE770B684D95219ECB");
         RequestConfiguration configuration = new RequestConfiguration.Builder()
                 .setTestDeviceIds(testDeviceIds)
                 .build();
         MobileAds.setRequestConfiguration(configuration);
 
-        // Initialize AdMob
         MobileAds.initialize(this, initializationStatus -> {
             adView = new AdView(this);
             adView.setAdSize(AdSize.BANNER);
             adView.setAdUnitId(getString(R.string.admob_banner_id));
+            adView.setFitsSystemWindows(false);
 
-            // Layout params to align banner at the bottom
             FrameLayout.LayoutParams adParams = new FrameLayout.LayoutParams(
                     FrameLayout.LayoutParams.MATCH_PARENT,
                     FrameLayout.LayoutParams.WRAP_CONTENT
@@ -142,13 +134,11 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
 
             AdRequest.Builder adRequestBuilder = new AdRequest.Builder();
             if (!consentGiven) {
-                // Non-personalized ads if consent not given
                 android.os.Bundle extras = new android.os.Bundle();
                 extras.putString("npa", "1");
                 adRequestBuilder.addNetworkExtrasBundle(AdMobAdapter.class, extras);
             }
 
-            // ✅ Debug listener for ads
             adView.setAdListener(new AdListener() {
                 @Override
                 public void onAdLoaded() {
@@ -159,30 +149,16 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
                 public void onAdFailedToLoad(@NonNull com.google.android.gms.ads.LoadAdError adError) {
                     Log.e("AdMob", "Ad failed to load ❌: " + adError.getMessage());
                 }
-
-                @Override
-                public void onAdOpened() {
-                    Log.d("AdMob", "Ad opened");
-                }
-
-                @Override
-                public void onAdClosed() {
-                    Log.d("AdMob", "Ad closed");
-                }
             });
 
-            // Load the ad
             adView.loadAd(adRequestBuilder.build());
 
-            // Launch TWA after a short delay
             new Handler(Looper.getMainLooper()).postDelayed(this::launchTwaWrapper, 500);
-
         });
     }
 
-    // Wrapper to avoid clash with superclass
     private void launchTwaWrapper() {
-        super.launchTwa(); // calls the original TWA launcher
+        super.launchTwa();
     }
 
     @Override
