@@ -138,6 +138,7 @@ public class LauncherActivity extends com.google.androidbrowserhelper.trusted.La
             adParams.gravity = Gravity.BOTTOM;
 
             rootLayout.addView(adView, adParams);
+            adView.bringToFront();
 
             AdRequest.Builder adRequestBuilder = new AdRequest.Builder();
             if (!consentGiven) {
